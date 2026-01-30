@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gîte Angèle | Authenticité en Terres de Cantal</title>
+    <meta name="description" content="Gîte de charme restauré dans le Cantal. 12 personnes, piscine privée, vue panoramique. Une expérience authentique au cœur de l'Auvergne.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- CSS VARIABLES & RESET --- */
+        :root {
+            /* Palette */
+            --stone: #3D3229;
+            --cream: #F5F0EB;
+            --terracotta: #C4724D;
+            --forest: #4A6741;
+            --gold: #C5A05E;
+            --charcoal: #2C2C2C;
+            --white: #FEFEFE;
+            --sand: #E8DED3;
+            
+            /* Typography */
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Inter', sans-serif;
+            
+            /* Spacing */
+            --spacing-xs: 1rem;
+            --spacing-sm: 2rem;
+            --spacing-md: 4rem;
+            --spacing-lg: 8rem;
+            --spacing-xl: 12rem;
+            
+            /* UI */
+            --radius: 2px;
+            --transition: 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            background-color: var(--cream);
+            color: var(--charcoal);
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.8;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* --- TEXTURE OVERLAY --- */
+        .noise-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+            opacity: 0.04;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+
+        /* --- TYPOGRAPHY --- */
+        h1, h2, h3, h4, .serif {
+            font-family: var(--font-display);
+            font-weight: 400;
+            line-height: 1.1;
+            color: var(--stone);
+        }
+
+        h1 {
+            font-size: clamp(3rem, 6vw, 5.5rem);
+            letter-spacing: -0.02em;
+        }
+
+        h2 {
+            font-size: clamp(2.5rem, 4vw, 3.5rem);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        h3 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            max-width: 65ch;
+        }
+
+        .text-lead {
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+        .text-gold { color: var(--gold); }
+        .text-cream { color: var(--cream); }
+        .text-white { color: var(--white); }
+
+        /* --- UTILITIES --- */
+        .container {
+            width: 90%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .grid {
+            display: grid;
+            gap: var(--spacing-md);
+        }
+
+        .grid-2 { grid-template-columns: 1fr; }
+        .grid-3 { grid-template-columns: 1fr; }
+        .grid-4 { grid-template-columns: 1fr; }
+
+        @media (min-width: 768px) {
+            .grid-2 { grid-template-columns: 1fr 1fr; }
+            .grid-3 { grid-template-columns: repeat(3, 1fr); }
+            .grid-4 { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (min-width: 1024px) {
+            .grid-4 { grid-template-columns: repeat(4, 1fr); }
+        }
+
+        .section-padding {
+            padding-block: var(--spacing-lg);
+        }
+
+        /* --- SCROLLBAR --- */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--cream);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--stone);
+            border-radius: 4px;
+        }
+
+        /* --- ANIMATIONS --- */
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .reveal-delay-1 { transition-delay: 0.1s; }
+        .reveal-delay-2 { transition-delay: 0.2s; }
+        .reveal-delay-3 { transition-delay: 0.3s; }
+
+        /* --- NAVIGATION --- */
+        .nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 2rem 0;
+            z-index: 100;
+            transition: var(--transition);
+        }
+
+        .nav.scrolled {
+            padding: 1rem 0;
+            background: rgba(245, 240, 235, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(61, 50, 41, 0.05);
+        }
+
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            font-family: var(--font-display);
+            font-size: 1.75rem;
+            font-weight: 500;
+            text-decoration: none;
+            color: var(--white); /* Default for Hero */
+            transition: color 0.3s ease;
+        }
+
+        .nav.scrolled .nav-logo {
+            color: var(--stone);
+        }
+
+        .nav-links {
+            display: none;
+            gap: 2.5rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--white);
+            font-size: 0.95rem;
+            letter-spacing: 0.02em;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0%;
+            height: 1px;
+            background: var(--gold);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .nav.scrolled .nav-link {
+            color: var(--stone);
+        }
+
+        @media (min-width: 768px) {
+            .nav-links { display: flex; }
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.8rem;
+            font-family: var(--font-body);
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 1px solid transparent;
+        }
+
+        .btn-cta {
+            background-color: var(--terracotta);
+            color: var(--white);
+        }
+        .btn-cta:hover {
+            background-color: #b06543;
+            transform: translateY(-2px);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid var(--white);
+            color: var(--white);
+        }
+        .btn-outline:hover {
+            background: var(--white);
+            color: var(--stone);
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, var(--stone) 0%, #5a4638 50%, var(--terracotta) 100%);
+            color: var(--cream);
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at center, transparent 0%, rgba(0,0,0,0.3) 100%);
+        }
+
+        /* Decorative ornament */
+        .hero-ornament {
+            width: 1px;
+            height: 80px;
+            background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+            margin: 0 auto 2rem auto;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            padding: 0 1rem;
+        }
+
+        .hero-subtitle {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin-bottom: 1.5rem;
+            opacity: 0.9;
+        }
+
+        .hero-badge {
+            position: absolute;
+            bottom: 3rem;
+            right: 3rem;
+            font-size: 0.85rem;
+            letter-spacing: 0.1em;
+            opacity: 0.8;
+            border-left: 1px solid var(--gold);
+            padding-left: 1rem;
+            display: none;
+        }
+        @media(min-width: 768px) { .hero-badge { display: block; } }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+            opacity: 0.7;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0) translateX(-50%);}
+            40% {transform: translateY(-10px) translateX(-50%);}
+            60% {transform: translateY(-5px) translateX(-50%);}
+        }
+
+        /* --- INTRO --- */
+        .intro-features {
+            list-style: none;
+            margin-top: 1rem;
+        }
+        .intro-features li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            color: var(--stone);
+        }
+        .icon-line {
+            width: 24px;
+            height: 24px;
+            margin-right: 1rem;
+            stroke: var(--terracotta);
+            stroke-width: 1.5;
+            fill: none;
+        }
+
+        /* --- SPACES --- */
+        .space-block {
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-bottom: var(--spacing-lg);
+            align-items: center;
+            gap: 2rem;
+        }
+        
+        .space-visual {
+            height: 400px;
+            background-color: var(--sand);
+            position: relative;
+            overflow: hidden;
+            border-radius: var(--radius);
+        }
+        
+        /* Simulating imagery with CSS gradients */
+        .visual-veranda { background: linear-gradient(to bottom right, #E8DED3, #D6C8B9); }
+        .visual-cantou { background: linear-gradient(to bottom right, #3D3229, #5C4B3E); }
+        .visual-rooms { background: linear-gradient(to bottom right, #F5F0EB, #EBE0D6); }
+        .visual-pool { background: linear-gradient(to bottom right, #4A6741, #6B8E60); }
+
+        /* Abstract geometrical hint in visual */
+        .space-visual::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 80%;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .space-content {
+            padding: 2rem;
+            position: relative;
+        }
+        
+        .accent-bar {
+            position: absolute;
+            left: 0;
+            top: 2rem;
+            bottom: 2rem;
+            width: 2px;
+            background: var(--stone);
+        }
+
+        .space-list {
+            margin-top: 1.5rem;
+            list-style: none;
+            font-size: 0.95rem;
+            color: #555;
+        }
+        .space-list li {
+            margin-bottom: 0.5rem;
+            padding-left: 1rem;
+            position: relative;
+        }
+        .space-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+        }
+
+        @media (min-width: 900px) {
+            .space-block {
+                grid-template-columns: 1fr 1fr;
+                gap: 5rem;
+            }
+            .space-block:nth-child(even) .space-visual {
+                order: 2;
+            }
+            .space-block:nth-child(even) .space-content {
+                order: 1;
+                text-align: right;
+            }
+            .space-block:nth-child(even) .accent-bar {
+                left: auto;
+                right: 0;
+            }
+        }
+
+        /* --- CANTAL (DARK) --- */
+        .section-cantal {
+            background-color: var(--stone);
+            color: var(--cream);
+            position: relative;
+        }
+        
+        .section-cantal h2, .section-cantal p {
+            color: var(--cream);
+        }
+
+        .card-glass {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            transition: var(--transition);
+        }
+        .card-glass:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-5px);
+        }
+        .card-glass h3 {
+            font-size: 1.5rem;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+        }
+
+        /* --- SEASONS --- */
+        .season-card {
+            background: var(--white);
+            padding: 2.5rem;
+            border-top: 4px solid transparent;
+            box-shadow: 0 10px 30px -10px rgba(61, 50, 41, 0.1);
+            height: 100%;
+        }
+        .season-spring { border-color: var(--forest); }
+        .season-summer { border-color: var(--terracotta); }
+        .season-autumn { border-color: var(--gold); }
+        .season-winter { border-color: var(--stone); }
+
+        .season-title {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        /* --- TESTIMONIAL --- */
+        .testimonial-section {
+            background-color: var(--sand);
+            text-align: center;
+        }
+        .quote-mark {
+            font-family: var(--font-display);
+            font-size: 6rem;
+            line-height: 1;
+            color: var(--gold);
+            display: block;
+            margin-bottom: -2rem;
+            opacity: 0.5;
+        }
+        .quote-text {
+            font-family: var(--font-display);
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-style: italic;
+            margin: 2rem auto;
+            color: var(--stone);
+        }
+        .stars { color: var(--gold); letter-spacing: 0.2rem; }
+
+        /* --- PRACTICAL --- */
+        .info-card h3 {
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--terracotta);
+            font-family: var(--font-body);
+            margin-bottom: 1.5rem;
+        }
+        .info-card p {
+            font-size: 1.1rem;
+            color: var(--stone);
+        }
+
+        /* --- CTA --- */
+        .booking-section {
+            background: linear-gradient(to right, var(--terracotta), #a65d3d);
+            text-align: center;
+            color: var(--white);
+            padding: 6rem 1rem;
+        }
+        .booking-section h2 { color: var(--white); }
+        .btn-white {
+            background: var(--white);
+            color: var(--terracotta);
+            margin-top: 2rem;
+            font-weight: 500;
+        }
+        .btn-white:hover {
+            background: var(--stone);
+            color: var(--white);
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            background-color: var(--stone);
+            color: rgba(255,255,255,0.6);
+            padding: 4rem 0;
+            font-size: 0.9rem;
+        }
+        .footer-logo {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            color: var(--white);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .footer-grid {
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding-bottom: 3rem;
+            margin-bottom: 2rem;
+        }
+        .footer-links a {
+            color: inherit;
+            text-decoration: none;
+            margin-right: 1.5rem;
+            transition: color 0.3s;
+        }
+        .footer-links a:hover { color: var(--white); }
+
+    </style>
+</head>
+<body>
+
+    <!-- Texture overlay for film grain effect -->
+    <div class="noise-overlay"></div>
+
+    <nav class="nav" id="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="nav-logo">Gîte Angèle</a>
+            <div class="nav-links">
+                <a href="#intro" class="nav-link">Le Gîte</a>
+                <a href="#spaces" class="nav-link">Les Espaces</a>
+                <a href="#cantal" class="nav-link">Le Cantal</a>
+                <a href="#booking" class="btn btn-cta">Réserver</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-badge">Sénezergues, Cantal · France 🇫🇷</div>
+        <div class="hero-content">
+            <div class="hero-ornament reveal"></div>
+            <p class="hero-subtitle reveal reveal-delay-1">Ancien corps de ferme restauré · 12 personnes</p>
+            <h1 class="reveal reveal-delay-2">L'art de vivre cantalien <br>dans un écrin de nature préservée</h1>
+            <div style="margin-top: 3rem;" class="reveal reveal-delay-3">
+                <a href="#intro" class="btn btn-outline">Découvrir le gîte</a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="square">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+        </div>
+    </header>
+
+    <section id="intro" class="section-padding">
+        <div class="container">
+            <div class="grid grid-2" style="align-items: center; gap: 4rem;">
+                <div class="reveal">
+                    <h2 class="text-gold" style="font-size: 1.5rem; margin-bottom: 1rem;">L'Esprit des Lieux</h2>
+                    <p class="text-lead">Niché au cœur de la Châtaigneraie Cantalienne, le Gîte Angèle révèle l'âme authentique d'un ancien corps de ferme restauré avec raffinement.</p>
+                    <p>173 m² d'espace, des panoramas à couper le souffle, et cette quiétude absolue que seul le Cantal sait offrir. Ici, le temps suspend son vol pour laisser place à l'essentiel.</p>
+                </div>
+                <div class="reveal reveal-delay-1">
+                    <ul class="intro-features">
+                        <li>
+                            <svg class="icon-line" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                            173 m² · 4 chambres · 12 couchages
+                        </li>
+                        <li>
+                            <svg class="icon-line" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="2"></rect><path d="M2 12h20"></path></svg>
+                            Piscine privée sécurisée
+                        </li>
+                        <li>
+                            <svg class="icon-line" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                            Vue panoramique 180°
+                        </li>
+                        <li>
+                            <svg class="icon-line" viewBox="0 0 24 24"><path d="M8.56 2.9A7 7 0 0 1 19 9v4m-2 4v2H3v-2m4-10.43A7 7 0 0 1 15 9v4m-4-2v6"></path></svg>
+                            Cantou ancestral & poêle à bois
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="spaces" class="section-padding" style="background: var(--white);">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 4rem;" class="reveal">
+                <h2>Les Espaces de Vie</h2>
+                <div style="width: 40px; height: 1px; background: var(--terracotta); margin: 0 auto;"></div>
+            </div>
+
+            <!-- Space 1 -->
+            <div class="space-block reveal">
+                <div class="space-visual visual-veranda"></div>
+                <div class="space-content">
+                    <div class="accent-bar" style="background: var(--terracotta);"></div>
+                    <h3>La Véranda Panoramique</h3>
+                    <p>Véritable belvédère sur la nature cantalienne. Baignée de lumière, elle offre une vue imprenable sur les vallons boisés et les couchers de soleil flamboyants.</p>
+                    <ul class="space-list">
+                        <li>Vue 180° sur la vallée</li>
+                        <li>Espace repas convivial</li>
+                        <li>Accès direct terrasse</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Space 2 -->
+            <div class="space-block reveal">
+                <div class="space-visual visual-cantou"></div>
+                <div class="space-content">
+                    <div class="accent-bar" style="background: var(--stone);"></div>
+                    <h3>Le Cantou</h3>
+                    <p>Le cœur battant de la maison. Autour de la cheminée traditionnelle auvergnate, les soirées se prolongent dans une ambiance chaleureuse et feutrée.</p>
+                    <ul class="space-list">
+                        <li>Cheminée traditionnelle</li>
+                        <li>Salon cosy</li>
+                        <li>Architecture de caractère</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Space 3 -->
+            <div class="space-block reveal">
+                <div class="space-visual visual-rooms"></div>
+                <div class="space-content">
+                    <div class="accent-bar" style="background: var(--gold);"></div>
+                    <h3>Les Nuits</h3>
+                    <p>Quatre univers distincts pour des nuits réparatrices. Du romantisme de la chambre parentale à l'esprit aventure du dortoir avec son tipi.</p>
+                    <ul class="space-list">
+                        <li>Suite parentale avec vue</li>
+                        <li>Dortoir enfants ludique</li>
+                        <li>Literie premium</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Space 4 -->
+            <div class="space-block reveal">
+                <div class="space-visual visual-pool"></div>
+                <div class="space-content">
+                    <div class="accent-bar" style="background: var(--forest);"></div>
+                    <h3>L'Extérieur & Piscine</h3>
+                    <p>Une oasis de fraîcheur privée. Baignades sous le ciel bleu intense du Cantal ou sous la voie lactée, loin de toute pollution lumineuse.</p>
+                    <ul class="space-list">
+                        <li>Piscine privée 8x4m</li>
+                        <li>Terrain de pétanque</li>
+                        <li>Jardin arboré</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="cantal" class="section-padding section-cantal">
+        <div class="container">
+            <div class="reveal" style="margin-bottom: 4rem;">
+                <h2>Aux portes de l'émerveillement</h2>
+                <p class="text-cream" style="opacity: 0.8;">Découvrez un territoire d'exception, entre volcans millénaires et patrimoine sacré.</p>
+            </div>
+            
+            <div class="grid grid-4">
+                <div class="card-glass reveal reveal-delay-1">
+                    <h3>Conques UNESCO</h3>
+                    <p style="font-size: 0.9rem; opacity: 0.8;">À 30 min. L'abbatiale Sainte-Foy, joyau de l'art roman sur le chemin de Compostelle.</p>
+                </div>
+                <div class="card-glass reveal reveal-delay-2">
+                    <h3>Volcans d'Auvergne</h3>
+                    <p style="font-size: 0.9rem; opacity: 0.8;">Puy Mary Grand Site de France. Des panoramas grandioses sur la plus grande chaîne volcanique d'Europe.</p>
+                </div>
+                <div class="card-glass reveal reveal-delay-3">
+                    <h3>Nature & Rando</h3>
+                    <p style="font-size: 0.9rem; opacity: 0.8;">Le GR 65 et des centaines de sentiers balisés au départ du gîte pour tous les niveaux.</p>
+                </div>
+                <div class="card-glass reveal reveal-delay-3">
+                    <h3>Gastronomie</h3>
+                    <p style="font-size: 0.9rem; opacity: 0.8;">Terre des 5 fromages AOP. Salers, truffade, aligot et charcuteries de montagne.</p>
+                </div>
+            </div>
+            
+            <div class="reveal" style="margin-top: 3rem; text-align: center; font-style: italic; opacity: 0.6; font-size: 0.9rem;">
+                "Des Racines et des Ailes a révélé au grand public les trésors cachés de notre coin du Cantal."
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="reveal" style="margin-bottom: 3rem; text-align: center;">
+                <h2>Au fil des 4 Saisons</h2>
+            </div>
+            <div class="grid grid-4">
+                <div class="season-card season-spring reveal">
+                    <span class="season-title" style="color: var(--forest);">Printemps</span>
+                    <p>L'éveil de la nature. Les vallons se couvrent de fleurs sauvages, idéal pour les randonneurs en quête de couleurs.</p>
+                </div>
+                <div class="season-card season-summer reveal reveal-delay-1">
+                    <span class="season-title" style="color: var(--terracotta);">Été</span>
+                    <p>La douceur de vivre. Baignades, marchés nocturnes de pays, festivals et ciels étoilés inoubliables.</p>
+                </div>
+                <div class="season-card season-autumn reveal reveal-delay-2">
+                    <span class="season-title" style="color: var(--gold);">Automne</span>
+                    <p>L'été indien. La châtaigneraie se pare d'or. Saison des champignons et des promenades en forêt.</p>
+                </div>
+                <div class="season-card season-winter reveal reveal-delay-3">
+                    <span class="season-title" style="color: var(--stone);">Hiver</span>
+                    <p>L'ambiance cocooning. Soirées au cantou, ski au Super Lioran (45min), et marchés de Noël.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding testimonial-section">
+        <div class="container reveal">
+            <span class="quote-mark">“</span>
+            <p class="quote-text">Un cadre exceptionnel, un accueil chaleureux, et cette vue... On ne voulait plus partir.</p>
+            <div class="stars">★★★★★</div>
+            <p style="margin-top: 1rem; font-size: 0.9rem; font-weight: 500;">Famille D. — Août 2024</p>
+        </div>
+    </section>
+
+    <section class="section-padding" style="background: var(--cream); border-top: 1px solid #e5e0db;">
+        <div class="container">
+            <div class="grid grid-3">
+                <div class="info-card reveal">
+                    <h3>Tarifs</h3>
+                    <p>À partir de <strong>1 200€ / semaine</strong> en haute saison.<br><span style="font-size: 0.9rem; opacity: 0.7;">Location à la semaine du samedi au samedi.</span></p>
+                </div>
+                <div class="info-card reveal reveal-delay-1">
+                    <h3>Accès</h3>
+                    <p>Le Valat, 15340 Sénezergues<br>
+                    <span style="font-size: 0.9rem;">40 min d'Aurillac (Aéroport)<br>30 min de Conques</span></p>
+                </div>
+                <div class="info-card reveal reveal-delay-2">
+                    <h3>Contact</h3>
+                    <p>Pour toute question :<br>
+                    <a href="#" style="color: var(--terracotta); text-decoration: none;">bonjour@gite-angele.fr</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking-section">
+        <div class="container reveal">
+            <h2>Réservez votre évasion cantalienne</h2>
+            <p style="color: rgba(255,255,255,0.9); margin: 1rem auto;">12 personnes · Piscine privée · Nature préservée</p>
+            <a href="#" class="btn btn-white">Demander une disponibilité</a>
+            <p style="margin-top: 1.5rem; font-size: 0.85rem; opacity: 0.7;">ou appelez-nous au 06 XX XX XX XX</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="grid grid-2 footer-grid" style="align-items: end;">
+                <div>
+                    <span class="footer-logo">Gîte Angèle</span>
+                    <p style="opacity: 0.7;">L'authenticité a trouvé son écrin.</p>
+                </div>
+                <div style="text-align: right;" class="footer-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: space-between; flex-wrap: wrap; opacity: 0.5; font-size: 0.8rem;">
+                <span>© 2025 Gîte Angèle. Tous droits réservés.</span>
+                <span>Mentions Légales · Politique de Confidentialité</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // --- Navbar Scroll Effect ---
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // --- Intersection Observer for Reveals ---
+        const revealElements = document.querySelectorAll('.reveal');
+        
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target); // Only animate once
+                }
+            });
+        }, {
+            root: null,
+            threshold: 0.15, // Trigger when 15% visible
+            rootMargin: "0px"
+        });
+
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // --- Smooth Scroll for Anchor Links ---
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if(target){
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
