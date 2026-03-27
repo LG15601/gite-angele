@@ -29,8 +29,8 @@ const spaces: Space[] = [
     title: "Le Cantou",
     description:
       "Le cœur battant de la maison. Autour de la cheminée traditionnelle auvergnate, les soirées se prolongent dans une ambiance chaleureuse et feutrée.",
-    image: "/images/salon.jpg",
-    alt: "Salon avec cheminée Cantou au Gîte Angèle",
+    image: "/images/cantou-poele.webp",
+    alt: "Cantou en pierre avec poêle à bois dans le salon du Gîte Angèle",
     accent: "bg-stone",
     features: [
       "Cheminée traditionnelle",
@@ -42,8 +42,8 @@ const spaces: Space[] = [
     title: "Les Nuits",
     description:
       "Quatre univers distincts pour des nuits réparatrices. Du romantisme de la chambre parentale à l'esprit aventure du dortoir avec son tipi.",
-    image: "/images/chambre-1.jpg",
-    alt: "Chambre principale du Gîte Angèle",
+    image: "/images/chambre.webp",
+    alt: "Chambre chaleureuse avec lit double et éclairage tamisé au Gîte Angèle",
     accent: "bg-gold",
     features: [
       "Suite parentale avec vue",
@@ -55,8 +55,8 @@ const spaces: Space[] = [
     title: "L'Extérieur & Piscine",
     description:
       "Une oasis de fraîcheur privée. Baignades sous le ciel bleu intense du Cantal ou sous la voie lactée, loin de toute pollution lumineuse.",
-    image: "/images/piscine-2.jpg",
-    alt: "Piscine privée du Gîte Angèle avec vue sur la nature",
+    image: "/images/exterieur-sieges.webp",
+    alt: "Transats en bois dans le jardin arboré du Gîte Angèle",
     accent: "bg-forest",
     features: [
       "Piscine privée 8x4m",
