@@ -1,19 +1,28 @@
 "use client";
 
 import ScrollReveal from "./ScrollReveal";
+import type { Dictionary } from "@/lib/getDictionary";
 
-const photos = [
-  { src: "/images/piscine-petanque.jpg", alt: "Piscine et terrain de pétanque" },
-  { src: "/images/interieur-1.jpg", alt: "Intérieur du salon" },
-  { src: "/images/drone-nature.jpg", alt: "Vue aérienne du gîte" },
-  { src: "/images/dortoir.jpg", alt: "Dortoir enfants avec tipi" },
-  { src: "/images/exterieur-1.jpg", alt: "Façade en pierre" },
-  { src: "/images/chambre-2.jpg", alt: "Chambre double avec vue" },
-  { src: "/images/chambre-3.jpg", alt: "Chambre double cosy" },
-  { src: "/images/ext-vue.jpg", alt: "Vue paysage cantalien" },
+const photoSrcs = [
+  "/images/facade-pierre-fleurs.webp",
+  "/images/salon-chesterfield.webp",
+  "/images/drone-nature.webp",
+  "/images/chambre-lavande.webp",
+  "/images/piscine-petanque.webp",
+  "/images/salon-vue-large.webp",
+  "/images/pergola-table-vue2.webp",
+  "/images/potager-composteur.webp",
+  "/images/chambre-bureau-miroir.webp",
+  "/images/transat-bois-facade.webp",
+  "/images/dortoir.webp",
+  "/images/olivier-jardin.webp",
+  "/images/transats-vue-nuages.webp",
+  "/images/nespresso-magimix.webp",
+  "/images/chambre-lavande-lot3.webp",
+  "/images/ext-vue.webp",
 ];
 
-export default function Gallery() {
+export default function Gallery({ dict }: { dict: Dictionary["gallery"] }) {
   return (
     <section id="gallery" className="py-24 lg:py-32 bg-sand">
       <div className="w-[90%] max-w-[1400px] mx-auto">
@@ -22,18 +31,19 @@ export default function Gallery() {
             className="font-display font-normal text-stone leading-tight"
             style={{ fontSize: "clamp(2.5rem, 4vw, 3.5rem)" }}
           >
-            Galerie Photo
+            {dict.title}
           </h2>
           <div className="w-10 h-px bg-terracotta mx-auto mt-6" />
         </ScrollReveal>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          {photos.map((photo, i) => (
-            <ScrollReveal key={photo.src} delay={i * 0.08}>
+          {photoSrcs.map((src, i) => (
+            <ScrollReveal key={src} delay={i * 0.05}>
               <div className="relative overflow-hidden rounded-sm shadow-md group">
                 <img
-                  src={photo.src}
-                  alt={photo.alt}
+                  src={src}
+                  alt={dict.alts[i] || ""}
+                  loading="lazy"
                   className="w-full h-[300px] object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-stone/0 group-hover:bg-stone/20 transition-colors duration-500" />

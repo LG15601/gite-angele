@@ -1,8 +1,13 @@
 "use client";
 
 import ScrollReveal from "./ScrollReveal";
+import type { Dictionary } from "@/lib/getDictionary";
 
-export default function Testimonial() {
+export default function Testimonial({
+  dict,
+}: {
+  dict: Dictionary["testimonial"];
+}) {
   return (
     <section className="py-24 lg:py-32 bg-sand text-center">
       <div className="w-[90%] max-w-[800px] mx-auto">
@@ -14,15 +19,12 @@ export default function Testimonial() {
             className="font-display italic text-stone my-8"
             style={{ fontSize: "clamp(1.5rem, 3vw, 2.5rem)" }}
           >
-            Un cadre exceptionnel, un accueil chaleureux, et cette vue... On ne
-            voulait plus partir.
+            {dict.quote}
           </p>
           <div className="text-gold tracking-widest text-xl mb-4">
             &#9733;&#9733;&#9733;&#9733;&#9733;
           </div>
-          <p className="text-stone/70 text-sm font-medium">
-            Famille D. — Août 2024
-          </p>
+          <p className="text-stone/70 text-sm font-medium">{dict.author}</p>
         </ScrollReveal>
       </div>
     </section>

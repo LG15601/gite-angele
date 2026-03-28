@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "title": "Gîte Angèle | Charming Cottage for 12 with Pool — Cantal, Auvergne, France",
+    "description": "Charming gîte for 12 guests in Sénezergues, Cantal. Private pool, 180° panoramic veranda, traditional cantou fireplace, stunning views over the Châtaigneraie Cantalienne."
+  },
+  "nav": {
+    "gite": "The Gîte",
+    "spaces": "Spaces",
+    "gallery": "Gallery",
+    "cantal": "Cantal",
+    "tarifs": "Rates",
+    "contact": "Contact",
+    "book": "Book Now"
+  },
+  "hero": {
+    "subtitle": "Restored 18th-century farmhouse · Sleeps 12",
+    "title1": "The art of living in Cantal",
+    "title2": "in a haven of unspoiled nature",
+    "cta": "Discover the gîte",
+    "badge": "Sénezergues, Cantal · France"
+  },
+  "presentation": {
+    "sectionLabel": "The Spirit of the Place",
+    "text1": "Nestled in the heart of the Châtaigneraie Cantalienne, between Maurs and Calvinet, Gîte Angèle reveals the authentic soul of a beautifully restored farmhouse.",
+    "text2": "173 m² of living space at Le Valat in Sénezergues, breathtaking panoramas, and the absolute tranquillity that only Cantal can offer. Here, time stands still for what truly matters.",
+    "features": [
+      "173 m² · 4 bedrooms · Sleeps 12",
+      "Secured private pool",
+      "180° panoramic veranda & billiards",
+      "Ancestral Cantou fireplace & wood stove",
+      "Châtaigneraie Cantalienne · Slow tourism"
+    ],
+    "story": {
+      "title": "The Story of Angèle",
+      "p1": "Angèle was a woman of character, deeply rooted in this Cantal land. Every morning, she walked to the market in Calvinet, rain or shine. She tended her garden with inexhaustible energy, crossing the decades with a courage and joie de vivre that left a mark on everyone who knew her.",
+      "highlight": "This house is hers.",
+      "p2": "Today, her granddaughter Marie carries on this legacy. And fate decreed that her own granddaughter should also bear the name Angèle — just as lively and luminous as her great-great-grandmother. Our wish is simple: that you feel as much at home here as the generations who came before, in renewed comfort and a preserved environment."
+    }
+  },
+  "spaces": {
+    "title": "Living Spaces",
+    "items": [
+      {
+        "title": "The Panoramic Veranda",
+        "description": "A true belvedere overlooking the Cantal countryside. Bathed in light, it offers stunning 180° views over the wooded valleys of the Châtaigneraie. Billiards, board games and a reading corner for family evenings.",
+        "alt": "Stone facade with panoramic veranda at sunset — Gîte Angèle, Sénezergues",
+        "features": ["180° valley view", "Billiards & board games", "Bright dining area", "Direct terrace access"]
+      },
+      {
+        "title": "The Cantou",
+        "description": "The beating heart of the house. Around the traditional Auvergne fireplace — the cantou — evenings linger in a warm and cosy atmosphere. The wood stove heats the room for autumn and winter stays.",
+        "alt": "Stone cantou with wood stove in the lounge of Gîte Angèle, Cantal",
+        "features": ["Traditional Cantal fireplace", "Wood stove", "Chesterfield sofas", "Character architecture"]
+      },
+      {
+        "title": "The Bedrooms",
+        "description": "Four distinct worlds for restful nights. From the romance of the master suite to the adventurous spirit of the dormitory with its teepee. Premium bedding, sheets and towels provided.",
+        "alt": "King-size bedroom with premium bedding at Gîte Angèle, Cantal",
+        "features": ["King-size master suite", "Lavender room", "Fun children's dormitory", "Sheets & towels included"]
+      },
+      {
+        "title": "Dining under the Stars",
+        "description": "A large 12-seat table under the pergola. Share memorable meals outdoors, lulled by the song of cicadas and the gentle Cantal evening. Zero light pollution — the starry sky is a show in itself.",
+        "alt": "Pergola with large outdoor dining table and countryside views at Gîte Angèle",
+        "features": ["12-seat table under pergola", "Stunning countryside views", "Starlit sky, no light pollution", "Barbecue available"]
+      },
+      {
+        "title": "Outdoor & Pool",
+        "description": "A private oasis of freshness, secured and fenced, in a green setting with views over the hills. Swim under Cantal's intense blue sky or beneath the Milky Way.",
+        "alt": "Sun loungers with panoramic views over the Cantal countryside — Gîte Angèle",
+        "features": ["Secured private pool", "Pétanque court", "Sun loungers & sunbathing", "5,000 m² landscaped garden"]
+      },
+      {
+        "title": "Angèle's Garden",
+        "description": "Our vegetable garden invites you to pick fresh herbs, tomatoes and seasonal vegetables for your meals. A compost bin is provided — here, we care for the earth just as Angèle did.",
+        "alt": "Angèle's Garden — vegetable patch and herbs at Gîte Angèle, Sénezergues",
+        "features": ["Self-service vegetable garden", "Fresh aromatic herbs", "Eco-friendly compost bin", "Century-old olive tree"]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "alts": [
+      "Stone facade with flowers",
+      "Lounge with Chesterfield sofas",
+      "Aerial view of the gîte in the Châtaigneraie",
+      "Lavender bedroom",
+      "Private pool and pétanque court",
+      "Bright lounge with panoramic views",
+      "Dining under the pergola with countryside views",
+      "Organic vegetable garden at Angèle's Garden",
+      "Bedroom with desk and mirror",
+      "Wooden sun loungers by the stone facade",
+      "Children's dormitory with teepee",
+      "Century-old olive tree in the garden",
+      "Sun loungers facing the Cantal hills",
+      "Fully equipped kitchen — Nespresso, Magimix",
+      "Lavender bedroom — another view",
+      "Landscape view over the Châtaigneraie Cantalienne"
+    ]
+  },
+  "region": {
+    "title": "At the gates of wonder",
+    "subtitle": "Discover an exceptional territory between ancient volcanoes, charming villages and sacred heritage. The Châtaigneraie Cantalienne — between Maurs, Calvinet, Montsalvy, Mourjou and Cassaniouze — is a well-kept secret of slow tourism in Auvergne, featured on Échappées Belles (France 5).",
+    "highlights": [
+      {
+        "title": "Conques UNESCO",
+        "description": "30 min away. The Sainte-Foy Abbey, a jewel of Romanesque art on the Way of St James (GR 65)."
+      },
+      {
+        "title": "Auvergne Volcanoes",
+        "description": "Puy Mary, Grand Site de France (1h). Grandiose panoramas over Europe's largest volcanic chain."
+      },
+      {
+        "title": "Nature & Hiking",
+        "description": "The GR 65 and hundreds of marked trails starting from the gîte. Slow tourism in the heart of the Châtaigneraie."
+      },
+      {
+        "title": "Gastronomy",
+        "description": "Land of 5 AOP cheeses — Cantal, Salers, Saint-Nectaire, Bleu d'Auvergne, Fourme d'Ambert. Truffade, aligot, chestnuts, chestnut honey and Marcillac wines."
+      }
+    ],
+    "distancesTitle": "From the gîte",
+    "distances": [
+      { "place": "Calvinet", "detail": "neighbouring village", "time": "8 min" },
+      { "place": "Maurs", "detail": "Tuesday market", "time": "10 min" },
+      { "place": "Marcolès", "detail": "medieval town", "time": "15 min" },
+      { "place": "Conques", "detail": "UNESCO", "time": "30 min" },
+      { "place": "Aurillac", "detail": "station & airport", "time": "40 min" },
+      { "place": "Super Lioran", "detail": "alpine skiing", "time": "1h" },
+      { "place": "Rodez", "detail": "Soulages museum", "time": "1h15" },
+      { "place": "Toulouse", "detail": "international airport", "time": "3h30" }
+    ],
+    "quote": "Échappées Belles (France 5) revealed to the public the hidden treasures of our corner of Cantal."
+  },
+  "seasons": {
+    "title": "Through the 4 Seasons",
+    "items": [
+      { "name": "Spring", "description": "Nature's awakening. The valleys are covered with wildflowers, ideal for hikers seeking colour." },
+      { "name": "Summer", "description": "The sweet life. Swimming, night markets, festivals and unforgettable starry skies." },
+      { "name": "Autumn", "description": "Indian summer. The chestnut groves turn gold. Season of mushrooms and forest walks." },
+      { "name": "Winter", "description": "Cocooning time. Evenings by the cantou, skiing at Super Lioran (45 min), and Christmas markets." }
+    ]
+  },
+  "testimonial": {
+    "quote": "An exceptional setting, a warm welcome, and that view... We never wanted to leave.",
+    "author": "Family D. — August 2024"
+  },
+  "contact": {
+    "tarifsTitle": "Rates & Booking",
+    "tarifs": [
+      { "season": "High season", "period": "July – August", "price": "€2,500" },
+      { "season": "Mid season", "period": "June, September", "price": "€2,000" },
+      { "season": "Low season", "period": "October – May", "price": "€1,500" }
+    ],
+    "perWeek": "/week",
+    "shortStay": "Short stay (2 nights minimum)",
+    "cleaningOption": "Cleaning option",
+    "includedTitle": "Included in the rate",
+    "included": [
+      "Sheets & towels",
+      "Private pool",
+      "High-speed WiFi",
+      "Private parking",
+      "Firewood",
+      "Garden & vegetable patch"
+    ],
+    "access": {
+      "title": "Getting Here",
+      "address": "Le Valat, 15340 Sénezergues",
+      "items": [
+        "🚗 Aurillac (airport) — 40 min",
+        "🚗 Conques (UNESCO) — 30 min",
+        "🚗 Rodez — 1h15",
+        "🚗 Toulouse — 3h30",
+        "🚆 Aurillac station (Paris-Aurillac line)",
+        "✈️ Aurillac-Tronquières airport",
+        "✈️ Rodez-Aveyron airport — 1h15"
+      ]
+    },
+    "contactInfo": {
+      "title": "Contact",
+      "whatsapp": "Contact on WhatsApp"
+    },
+    "stay": {
+      "title": "Your Stay",
+      "items": [
+        "📅 Saturday to Saturday rental",
+        "🕓 Check-in from 4 pm",
+        "🕙 Check-out before 10 am",
+        "👥 12 guests max",
+        "🏠 173 m² · 4 bedrooms",
+        "🐕 Pets welcome"
+      ]
+    },
+    "cta": {
+      "title": "Book your Cantal escape",
+      "subtitle": "12 guests · Private pool · Châtaigneraie Cantalienne",
+      "button": "Check availability",
+      "callText": "or call Marie at"
+    }
+  },
+  "footer": {
+    "tagline": "Le Valat, 15340 Sénezergues, Cantal",
+    "copyright": "© 2026 Gîte Angèle. All rights reserved.",
+    "legal": "Legal Notice · Privacy Policy"
+  },
+  "whatsapp": {
+    "ariaLabel": "Contact on WhatsApp"
+  }
+}

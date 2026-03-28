@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "title": "Gîte Angèle | Cottage di charme per 12 persone con piscina — Cantal, Alvernia, Francia",
+    "description": "Gîte di charme per 12 persone a Sénezergues, Cantal. Piscina privata, veranda panoramica a 180°, cantou tradizionale, vista mozzafiato sulla Châtaigneraie Cantalienne."
+  },
+  "nav": {
+    "gite": "Il Gîte",
+    "spaces": "Spazi",
+    "gallery": "Galleria",
+    "cantal": "Il Cantal",
+    "tarifs": "Tariffe",
+    "contact": "Contatti",
+    "book": "Prenota"
+  },
+  "hero": {
+    "subtitle": "Antico casale restaurato · 12 posti letto",
+    "title1": "L'arte di vivere nel Cantal",
+    "title2": "in uno scrigno di natura incontaminata",
+    "cta": "Scopri il gîte",
+    "badge": "Sénezergues, Cantal · Francia"
+  },
+  "presentation": {
+    "sectionLabel": "Lo Spirito del Luogo",
+    "text1": "Immerso nel cuore della Châtaigneraie Cantalienne, tra Maurs e Calvinet, il Gîte Angèle rivela l'anima autentica di un antico casale restaurato con raffinatezza.",
+    "text2": "173 m² di spazio nella località Le Valat a Sénezergues, panorami mozzafiato e quella quiete assoluta che solo il Cantal sa offrire. Qui il tempo si ferma per lasciare spazio all'essenziale.",
+    "features": [
+      "173 m² · 4 camere · 12 posti letto",
+      "Piscina privata con recinzione di sicurezza",
+      "Veranda panoramica a 180° e biliardo",
+      "Cantou ancestrale e stufa a legna",
+      "Châtaigneraie Cantalienne · Turismo lento"
+    ],
+    "story": {
+      "title": "La Storia di Angèle",
+      "p1": "Angèle era una donna di carattere, radicata in questa terra del Cantal. Ogni mattina camminava fino al mercato di Calvinet, con il bello e il cattivo tempo. Coltivava il suo orto con un'energia inesauribile, attraversando i decenni con un coraggio e una gioia di vivere che hanno segnato tutti coloro che l'hanno conosciuta.",
+      "highlight": "Questa casa è la sua.",
+      "p2": "Oggi la sua nipote Marie porta avanti questa eredità. E il destino ha voluto che anche la sua pronipote portasse il nome di Angèle — altrettanto vivace e luminosa della sua trisavola. Il nostro desiderio è semplice: che vi sentiate qui a casa come le generazioni che vi hanno preceduto, in un comfort rinnovato e un ambiente preservato."
+    }
+  },
+  "spaces": {
+    "title": "Gli Spazi Abitativi",
+    "items": [
+      {
+        "title": "La Veranda Panoramica",
+        "description": "Un vero belvedere sulla natura del Cantal. Inondata di luce, offre una vista impagabile a 180° sulle valli boscose della Châtaigneraie. Biliardo, giochi da tavolo e angolo lettura per le serate in famiglia.",
+        "alt": "Facciata in pietra con veranda panoramica al tramonto — Gîte Angèle, Sénezergues",
+        "features": ["Vista a 180° sulla valle", "Biliardo e giochi da tavolo", "Zona pranzo luminosa", "Accesso diretto alla terrazza"]
+      },
+      {
+        "title": "Il Cantou",
+        "description": "Il cuore pulsante della casa. Attorno al camino tradizionale alverniate — il cantou — le serate si prolungano in un'atmosfera calda e raccolta. La stufa a legna riscalda l'ambiente per i soggiorni autunnali e invernali.",
+        "alt": "Cantou in pietra con stufa a legna nel soggiorno del Gîte Angèle, Cantal",
+        "features": ["Camino tradizionale del Cantal", "Stufa a legna", "Divani Chesterfield", "Architettura di carattere"]
+      },
+      {
+        "title": "Le Notti",
+        "description": "Quattro universi distinti per notti rigeneranti. Dal romanticismo della camera padronale allo spirito avventuroso del dormitorio con il suo tepee. Biancheria premium, lenzuola e asciugamani forniti.",
+        "alt": "Camera king size con biancheria premium al Gîte Angèle, Cantal",
+        "features": ["Suite padronale king size", "Camera lavanda", "Dormitorio bambini ludico", "Lenzuola e asciugamani inclusi"]
+      },
+      {
+        "title": "Cena sotto le Stelle",
+        "description": "Un grande tavolo da 12 posti sotto il pergolato. Condividete pasti memorabili all'aperto, cullati dal canto delle cicale e dalla dolcezza della sera cantalese. Zero inquinamento luminoso — il cielo stellato è uno spettacolo a sé.",
+        "alt": "Pergolato con grande tavolo esterno e vista campagna al Gîte Angèle",
+        "features": ["Tavolo 12 posti sotto pergolato", "Vista campagna impagabile", "Cielo stellato senza inquinamento", "Barbecue a disposizione"]
+      },
+      {
+        "title": "Esterno e Piscina",
+        "description": "Un'oasi di freschezza privata, protetta e recintata, in uno scrigno di verde con vista sulle colline. Nuotate sotto il cielo azzurro intenso del Cantal o sotto la Via Lattea.",
+        "alt": "Lettini con vista panoramica sulla campagna cantalese — Gîte Angèle",
+        "features": ["Piscina privata protetta", "Campo da bocce", "Lettini e solarium", "Giardino alberato 5.000 m²"]
+      },
+      {
+        "title": "Il Giardino di Angèle",
+        "description": "Il nostro orto vi invita a cogliere erbe aromatiche, pomodori e ortaggi di stagione per arricchire i vostri pasti. Una compostiera è a disposizione — qui ci prendiamo cura della terra come faceva Angèle.",
+        "alt": "Giardino di Angèle — orto ed erbe aromatiche al Gîte Angèle, Sénezergues",
+        "features": ["Orto a libero servizio", "Erbe aromatiche fresche", "Compostiera eco-responsabile", "Ulivo centenario"]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galleria Fotografica",
+    "alts": [
+      "Facciata in pietra con fiori",
+      "Soggiorno con divani Chesterfield",
+      "Vista aerea del gîte nella Châtaigneraie",
+      "Camera lavanda",
+      "Piscina privata e campo da bocce",
+      "Soggiorno luminoso con vista panoramica",
+      "Pranzo sotto il pergolato con vista campagna",
+      "Orto biologico del Giardino di Angèle",
+      "Camera con scrivania e specchio",
+      "Lettini in legno davanti alla facciata in pietra",
+      "Dormitorio bambini con tepee",
+      "Ulivo centenario nel giardino",
+      "Lettini di fronte alle colline del Cantal",
+      "Cucina attrezzata — Nespresso, Magimix",
+      "Camera lavanda — altra vista",
+      "Panorama sulla Châtaigneraie Cantalienne"
+    ]
+  },
+  "region": {
+    "title": "Alle porte della meraviglia",
+    "subtitle": "Scoprite un territorio d'eccezione tra vulcani millenari, borghi di carattere e patrimonio sacro. La Châtaigneraie Cantalienne — tra Maurs, Calvinet, Montsalvy, Mourjou e Cassaniouze — è un segreto ben custodito del turismo lento in Alvernia, presentato su Échappées Belles (France 5).",
+    "highlights": [
+      {
+        "title": "Conques UNESCO",
+        "description": "A 30 min. L'abbaziale Sainte-Foy, gioiello dell'arte romanica sul Cammino di Santiago (GR 65)."
+      },
+      {
+        "title": "Vulcani d'Alvernia",
+        "description": "Puy Mary, Grand Site de France (1h). Panorami grandiosi sulla più grande catena vulcanica d'Europa."
+      },
+      {
+        "title": "Natura e Trekking",
+        "description": "Il GR 65 e centinaia di sentieri segnalati in partenza dal gîte. Turismo lento nel cuore della Châtaigneraie."
+      },
+      {
+        "title": "Gastronomia",
+        "description": "Terra dei 5 formaggi AOP — Cantal, Salers, Saint-Nectaire, Bleu d'Auvergne, Fourme d'Ambert. Truffade, aligot, castagne, miele di castagno e vini di Marcillac."
+      }
+    ],
+    "distancesTitle": "Dal gîte",
+    "distances": [
+      { "place": "Calvinet", "detail": "villaggio vicino", "time": "8 min" },
+      { "place": "Maurs", "detail": "mercato il martedì", "time": "10 min" },
+      { "place": "Marcolès", "detail": "borgo medievale", "time": "15 min" },
+      { "place": "Conques", "detail": "UNESCO", "time": "30 min" },
+      { "place": "Aurillac", "detail": "stazione e aeroporto", "time": "40 min" },
+      { "place": "Super Lioran", "detail": "sci alpino", "time": "1h" },
+      { "place": "Rodez", "detail": "museo Soulages", "time": "1h15" },
+      { "place": "Toulouse", "detail": "aeroporto internazionale", "time": "3h30" }
+    ],
+    "quote": "Échappées Belles (France 5) ha svelato al grande pubblico i tesori nascosti del nostro angolo di Cantal."
+  },
+  "seasons": {
+    "title": "Attraverso le 4 Stagioni",
+    "items": [
+      { "name": "Primavera", "description": "Il risveglio della natura. Le valli si ricoprono di fiori selvatici, ideale per gli escursionisti in cerca di colori." },
+      { "name": "Estate", "description": "La dolce vita. Bagni, mercatini serali, festival e cieli stellati indimenticabili." },
+      { "name": "Autunno", "description": "L'estate indiana. Il castagneto si veste d'oro. Stagione dei funghi e delle passeggiate nel bosco." },
+      { "name": "Inverno", "description": "Atmosfera cocooning. Serate accanto al cantou, sci al Super Lioran (45 min) e mercatini di Natale." }
+    ]
+  },
+  "testimonial": {
+    "quote": "Una cornice eccezionale, un'accoglienza calorosa, e quella vista... Non volevamo più andarcene.",
+    "author": "Famiglia D. — Agosto 2024"
+  },
+  "contact": {
+    "tarifsTitle": "Tariffe e Prenotazione",
+    "tarifs": [
+      { "season": "Alta stagione", "period": "Luglio – Agosto", "price": "2.500 €" },
+      { "season": "Media stagione", "period": "Giugno, Settembre", "price": "2.000 €" },
+      { "season": "Bassa stagione", "period": "Ottobre – Maggio", "price": "1.500 €" }
+    ],
+    "perWeek": "/settimana",
+    "shortStay": "Soggiorno breve (minimo 2 notti)",
+    "cleaningOption": "Opzione pulizie",
+    "includedTitle": "Incluso nella tariffa",
+    "included": [
+      "Lenzuola e asciugamani",
+      "Piscina privata",
+      "WiFi ad alta velocità",
+      "Parcheggio privato",
+      "Legna da camino",
+      "Giardino e orto"
+    ],
+    "access": {
+      "title": "Come Arrivare",
+      "address": "Le Valat, 15340 Sénezergues",
+      "items": [
+        "🚗 Aurillac (aeroporto) — 40 min",
+        "🚗 Conques (UNESCO) — 30 min",
+        "🚗 Rodez — 1h15",
+        "🚗 Tolosa — 3h30",
+        "🚆 Stazione Aurillac (linea Parigi-Aurillac)",
+        "✈️ Aeroporto Aurillac-Tronquières",
+        "✈️ Aeroporto Rodez-Aveyron — 1h15"
+      ]
+    },
+    "contactInfo": {
+      "title": "Contatti",
+      "whatsapp": "Contattaci su WhatsApp"
+    },
+    "stay": {
+      "title": "Il Soggiorno",
+      "items": [
+        "📅 Affitto da sabato a sabato",
+        "🕓 Check-in dalle 16:00",
+        "🕙 Check-out entro le 10:00",
+        "👥 12 ospiti max",
+        "🏠 173 m² · 4 camere",
+        "🐕 Animali benvenuti"
+      ]
+    },
+    "cta": {
+      "title": "Prenotate la vostra fuga nel Cantal",
+      "subtitle": "12 persone · Piscina privata · Châtaigneraie Cantalienne",
+      "button": "Verifica disponibilità",
+      "callText": "oppure chiamate Marie al"
+    }
+  },
+  "footer": {
+    "tagline": "Le Valat, 15340 Sénezergues, Cantal",
+    "copyright": "© 2026 Gîte Angèle. Tutti i diritti riservati.",
+    "legal": "Note Legali · Informativa sulla Privacy"
+  },
+  "whatsapp": {
+    "ariaLabel": "Contattaci su WhatsApp"
+  }
+}

@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /reserver/
+
+Sitemap: https://giteangele.fr/sitemap.xml

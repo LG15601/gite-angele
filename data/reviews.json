@@ -1,0 +1,22 @@
+{
+  "source": "manual-collection",
+  "scrapingStatus": "blocked",
+  "scrapingNotes": "Abritel/Vrbo CAPTCHA blocks all automated access (browser, curl, API). Reviews need manual extraction or authenticated API access.",
+  "abritelListingId": "p1005412",
+  "expediaPropertyId": "33479001",
+  "abritelUrl": "https://www.abritel.fr/location-vacances/p1005412",
+  "averageRating": null,
+  "totalReviews": null,
+  "lastUpdated": "2026-03-27",
+  "reviews": [
+    {
+      "author": "Famille D.",
+      "date": "2024-08",
+      "rating": 5,
+      "text": "Un cadre exceptionnel, un accueil chaleureux, et cette vue... On ne voulait plus partir.",
+      "language": "fr",
+      "source": "gite-angele-site.vercel.app (testimonial section)",
+      "verified": false
+    }
+  ]
+}

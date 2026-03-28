@@ -2,18 +2,27 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import type { Dictionary } from "@/lib/getDictionary";
+import LanguageSwitcher from "./LanguageSwitcher";
 
-const links = [
-  { href: "#intro", label: "Le Gîte" },
-  { href: "#spaces", label: "Espaces" },
-  { href: "#gallery", label: "Galerie" },
-  { href: "#cantal", label: "Le Cantal" },
-  { href: "#contact", label: "Contact" },
-];
-
-export default function Navigation() {
+export default function Navigation({
+  dict,
+  locale,
+}: {
+  dict: Dictionary["nav"];
+  locale: string;
+}) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  const links = [
+    { href: "#intro", label: dict.gite },
+    { href: "#spaces", label: dict.spaces },
+    { href: "#gallery", label: dict.gallery },
+    { href: "#cantal", label: dict.cantal },
+    { href: "#tarifs", label: dict.tarifs },
+    { href: "#contact", label: dict.contact },
+  ];
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -55,41 +64,45 @@ export default function Navigation() {
                 <span className="absolute -bottom-1 left-0 w-0 h-px bg-gold transition-all duration-300 group-hover:w-full" />
               </a>
             ))}
+            <LanguageSwitcher locale={locale} scrolled={scrolled} />
             <a
               href="https://wa.me/33682478020"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-2.5 bg-terracotta text-white text-sm uppercase tracking-widest hover:bg-terracotta/90 transition-all duration-300 hover:-translate-y-0.5"
             >
-              Réserver
+              {dict.book}
             </a>
           </div>
 
           {/* Mobile burger */}
-          <button
-            className="md:hidden flex flex-col gap-1.5 z-50"
-            onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label="Menu"
-          >
-            <span
-              className={`block w-6 h-px transition-all duration-300 ${
-                mobileOpen
-                  ? "rotate-45 translate-y-[4px] bg-white"
-                  : scrolled
-                  ? "bg-stone"
-                  : "bg-white"
-              }`}
-            />
-            <span
-              className={`block w-6 h-px transition-all duration-300 ${
-                mobileOpen
-                  ? "-rotate-45 -translate-y-[3px] bg-white"
-                  : scrolled
-                  ? "bg-stone"
-                  : "bg-white"
-              }`}
-            />
-          </button>
+          <div className="md:hidden flex items-center gap-4">
+            <LanguageSwitcher locale={locale} scrolled={scrolled} />
+            <button
+              className="flex flex-col gap-1.5 z-50"
+              onClick={() => setMobileOpen(!mobileOpen)}
+              aria-label="Menu"
+            >
+              <span
+                className={`block w-6 h-px transition-all duration-300 ${
+                  mobileOpen
+                    ? "rotate-45 translate-y-[4px] bg-white"
+                    : scrolled
+                    ? "bg-stone"
+                    : "bg-white"
+                }`}
+              />
+              <span
+                className={`block w-6 h-px transition-all duration-300 ${
+                  mobileOpen
+                    ? "-rotate-45 -translate-y-[3px] bg-white"
+                    : scrolled
+                    ? "bg-stone"
+                    : "bg-white"
+                }`}
+              />
+            </button>
+          </div>
         </div>
       </nav>
 
@@ -126,7 +139,7 @@ export default function Navigation() {
                 className="mt-4 px-8 py-3 bg-terracotta text-white text-sm uppercase tracking-widest"
                 onClick={() => setMobileOpen(false)}
               >
-                Réserver
+                {dict.book}
               </motion.a>
             </nav>
           </motion.div>
