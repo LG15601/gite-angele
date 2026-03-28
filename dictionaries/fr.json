@@ -187,15 +187,15 @@
   "contact": {
     "tarifsTitle": "Tarifs & Réservation",
     "tarifs": [
-      { "season": "Haute saison", "period": "Juillet – Août", "price": "2 500€" },
-      { "season": "Moyenne saison", "period": "Juin, Septembre", "price": "2 000€" },
-      { "season": "Basse saison", "period": "Octobre – Mai", "price": "1 500€" }
+      { "season": "Haute saison", "period": "01/07 – 31/08", "price": "1 547€" },
+      { "season": "Arrière-saison", "period": "01/09 – 31/12", "price": "1 358€" },
+      { "season": "Basse saison", "period": "01/01 – 30/06", "price": "1 099€" }
     ],
     "perWeek": "/semaine",
     "shortStay": "Court séjour (2 nuits minimum)",
-    "cleaningOption": "Option ménage",
     "includedTitle": "Inclus dans le tarif",
     "included": [
+      "Ménage de fin de séjour inclus",
       "Draps & serviettes",
       "Piscine privée",
       "WiFi haut débit",
@@ -218,7 +218,13 @@
     },
     "contactInfo": {
       "title": "Contact",
-      "whatsapp": "Contacter sur WhatsApp"
+      "whatsapp": "Contacter sur WhatsApp",
+      "conciergerie": {
+        "title": "Conciergerie (états des lieux & ménage)",
+        "name": "Mme Aurélie Gandilhon",
+        "company": "Conciergerie des Pléiades",
+        "phone": "06 52 15 33 48"
+      }
     },
     "stay": {
       "title": "Le Séjour",

@@ -187,15 +187,15 @@
   "contact": {
     "tarifsTitle": "Tarifas y Reserva",
     "tarifs": [
-      { "season": "Temporada alta", "period": "Julio – Agosto", "price": "2.500 €" },
-      { "season": "Temporada media", "period": "Junio, Septiembre", "price": "2.000 €" },
-      { "season": "Temporada baja", "period": "Octubre – Mayo", "price": "1.500 €" }
+      { "season": "Temporada alta", "period": "01/07 – 31/08", "price": "1.547 €" },
+      { "season": "Temporada baja (otoño)", "period": "01/09 – 31/12", "price": "1.358 €" },
+      { "season": "Temporada baja", "period": "01/01 – 30/06", "price": "1.099 €" }
     ],
     "perWeek": "/semana",
     "shortStay": "Estancia corta (mínimo 2 noches)",
-    "cleaningOption": "Opción de limpieza",
     "includedTitle": "Incluido en la tarifa",
     "included": [
+      "Limpieza de fin de estancia incluida",
       "Sábanas y toallas",
       "Piscina privada",
       "WiFi de alta velocidad",
@@ -218,7 +218,13 @@
     },
     "contactInfo": {
       "title": "Contacto",
-      "whatsapp": "Contactar por WhatsApp"
+      "whatsapp": "Contactar por WhatsApp",
+      "conciergerie": {
+        "title": "Conserjería (entrada/salida y limpieza)",
+        "name": "Sra. Aurélie Gandilhon",
+        "company": "Conciergerie des Pléiades",
+        "phone": "06 52 15 33 48"
+      }
     },
     "stay": {
       "title": "La Estancia",

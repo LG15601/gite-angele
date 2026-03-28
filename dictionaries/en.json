@@ -187,15 +187,15 @@
   "contact": {
     "tarifsTitle": "Rates & Booking",
     "tarifs": [
-      { "season": "High season", "period": "July – August", "price": "€2,500" },
-      { "season": "Mid season", "period": "June, September", "price": "€2,000" },
-      { "season": "Low season", "period": "October – May", "price": "€1,500" }
+      { "season": "High season", "period": "01/07 – 31/08", "price": "€1,547" },
+      { "season": "Late season", "period": "01/09 – 31/12", "price": "€1,358" },
+      { "season": "Low season", "period": "01/01 – 30/06", "price": "€1,099" }
     ],
     "perWeek": "/week",
     "shortStay": "Short stay (2 nights minimum)",
-    "cleaningOption": "Cleaning option",
     "includedTitle": "Included in the rate",
     "included": [
+      "End-of-stay cleaning included",
       "Sheets & towels",
       "Private pool",
       "High-speed WiFi",
@@ -218,7 +218,13 @@
     },
     "contactInfo": {
       "title": "Contact",
-      "whatsapp": "Contact on WhatsApp"
+      "whatsapp": "Contact on WhatsApp",
+      "conciergerie": {
+        "title": "Concierge service (check-in/out & cleaning)",
+        "name": "Mrs Aurélie Gandilhon",
+        "company": "Conciergerie des Pléiades",
+        "phone": "06 52 15 33 48"
+      }
     },
     "stay": {
       "title": "Your Stay",

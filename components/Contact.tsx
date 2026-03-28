@@ -51,12 +51,6 @@ export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
 
           <ScrollReveal>
             <div className="text-center mb-8">
-              <p className="text-charcoal/60 text-sm mb-4">
-                {dict.shortStay}&nbsp;:{" "}
-                <strong className="text-stone">800€</strong>
-                &nbsp;&middot;&nbsp;{dict.cleaningOption}&nbsp;:{" "}
-                <strong className="text-stone">150€</strong>
-              </p>
               <p className="text-charcoal/50 text-xs uppercase tracking-widest mb-4">
                 {dict.includedTitle}
               </p>
@@ -116,10 +110,10 @@ export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
                 </p>
                 <p className="mt-1">
                   <a
-                    href="mailto:contact@gite-angele.fr"
+                    href="mailto:gitelevalat@gmail.com"
                     className="text-stone/70 hover:text-terracotta transition-colors text-sm"
                   >
-                    contact@gite-angele.fr
+                    gitelevalat@gmail.com
                   </a>
                 </p>
                 <p>
@@ -140,6 +134,27 @@ export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
                     {dict.contactInfo.whatsapp} &rarr;
                   </a>
                 </p>
+
+                {/* Conciergerie des Pléiades */}
+                <div className="mt-8 pt-6 border-t border-stone/10">
+                  <p className="text-charcoal/50 text-xs uppercase tracking-widest mb-3">
+                    {dict.contactInfo.conciergerie.title}
+                  </p>
+                  <p className="text-stone text-sm leading-relaxed">
+                    <strong>{dict.contactInfo.conciergerie.company}</strong>
+                  </p>
+                  <p className="text-stone/70 text-sm">
+                    {dict.contactInfo.conciergerie.name}
+                  </p>
+                  <p className="mt-1">
+                    <a
+                      href="tel:+33652153348"
+                      className="text-terracotta hover:text-terracotta/80 transition-colors text-sm"
+                    >
+                      {dict.contactInfo.conciergerie.phone}
+                    </a>
+                  </p>
+                </div>
               </div>
             </ScrollReveal>
 
@@ -190,8 +205,8 @@ export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
                 06 82 47 80 20
               </a>
               {" "}&middot;{" "}
-              <a href="mailto:contact@gite-angele.fr" className="underline">
-                contact@gite-angele.fr
+              <a href="mailto:gitelevalat@gmail.com" className="underline">
+                gitelevalat@gmail.com
               </a>
             </p>
           </ScrollReveal>

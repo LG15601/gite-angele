@@ -14,10 +14,10 @@ export default function Footer({ dict }: { dict: Dictionary["footer"] }) {
             <p className="text-white/50">{dict.tagline}</p>
             <p className="text-white/40 text-xs mt-1">
               <a
-                href="mailto:contact@gite-angele.fr"
+                href="mailto:gitelevalat@gmail.com"
                 className="hover:text-white/70 transition-colors"
               >
-                contact@gite-angele.fr
+                gitelevalat@gmail.com
               </a>
               {" "}&middot;{" "}
               <a
