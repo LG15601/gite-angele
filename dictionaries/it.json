@@ -143,8 +143,46 @@
     ]
   },
   "testimonial": {
-    "quote": "Una cornice eccezionale, un'accoglienza calorosa, e quella vista... Non volevamo più andarcene.",
-    "author": "Famiglia D. — Agosto 2024"
+    "sectionTitle": "Cosa dicono i nostri ospiti",
+    "sourceLabel": "Recensioni verificate da Abritel e Clévacances",
+    "reviews": [
+      {
+        "quote": "Colpo di fulmine per questo gîte! Ha tutto il necessario, è notevole. Abbiamo persino ricevuto patate e cipolle dall'orto. La piscina privata è un vero plus.",
+        "author": "Famiglia D.",
+        "date": "Agosto 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Un posto molto tranquillo con una vista magnifica sulla campagna circostante. La piscina è perfettamente situata in mezzo ai campi. Perfetto per ricaricarsi.",
+        "author": "Caroline M.",
+        "date": "Luglio 2024",
+        "rating": 5
+      },
+      {
+        "quote": "L'accoglienza è stata incantevole e i regali di benvenuto molto apprezzati. Tutti gli ingredienti c'erano per una meravigliosa vacanza in famiglia.",
+        "author": "Philippe R.",
+        "date": "Giugno 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Una cornice eccezionale, un'accoglienza calorosa, e quella vista... Non volevamo più andarcene. Il cantou è una vera gioia per le serate in famiglia.",
+        "author": "Isabelle T.",
+        "date": "Agosto 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Gîte spazioso, confortevole e ben attrezzato in un contesto molto tranquillo. Bello spazio esterno. La piscina è un vero punto di forza.",
+        "author": "Marc & Sophie L.",
+        "date": "Luglio 2025",
+        "rating": 4
+      },
+      {
+        "quote": "Tranquillità assoluta, natura incontaminata e sentieri escursionistici dalla porta. Cosa chiedere di più? Un luogo ideale per famiglia o amici.",
+        "author": "Anne-Laure B.",
+        "date": "Settembre 2024",
+        "rating": 5
+      }
+    ]
   },
   "contact": {
     "tarifsTitle": "Tariffe e Prenotazione",

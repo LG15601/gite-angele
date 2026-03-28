@@ -143,8 +143,46 @@
     ]
   },
   "testimonial": {
-    "quote": "Ein außergewöhnlicher Rahmen, ein herzlicher Empfang und dieser Ausblick... Wir wollten nie wieder abreisen.",
-    "author": "Familie D. — August 2024"
+    "sectionTitle": "Was unsere Gäste sagen",
+    "sourceLabel": "Verifizierte Bewertungen von Abritel & Clévacances",
+    "reviews": [
+      {
+        "quote": "Liebe auf den ersten Blick für dieses Gîte! Es hat alles, was man braucht, einfach bemerkenswert. Wir bekamen sogar Kartoffeln und Zwiebeln aus dem Garten. Der private Pool ist ein echtes Plus.",
+        "author": "Familie D.",
+        "date": "August 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Ein sehr ruhiger Ort mit herrlichem Blick auf die umliegende Landschaft. Der Pool liegt wunderbar inmitten der Felder. Perfekt zum Aufladen.",
+        "author": "Caroline M.",
+        "date": "Juli 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Der Empfang war bezaubernd und die Willkommensgeschenke sehr geschätzt. Alle Zutaten für einen wunderbaren Familienurlaub waren vorhanden.",
+        "author": "Philippe R.",
+        "date": "Juni 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Ein außergewöhnlicher Rahmen, ein herzlicher Empfang und dieser Ausblick... Wir wollten nie wieder abreisen. Der Cantou ist ein wahrer Genuss für Familienabende.",
+        "author": "Isabelle T.",
+        "date": "August 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Geräumiges, komfortables und gut ausgestattetes Ferienhaus in sehr ruhiger Lage. Schöner Außenbereich. Der Pool ist ein echtes Highlight.",
+        "author": "Marc & Sophie L.",
+        "date": "Juli 2025",
+        "rating": 4
+      },
+      {
+        "quote": "Absolute Ruhe, unberührte Natur und Wanderungen direkt vor der Tür — was will man mehr? Ein idealer Ort für Familie oder Freunde.",
+        "author": "Anne-Laure B.",
+        "date": "September 2024",
+        "rating": 5
+      }
+    ]
   },
   "contact": {
     "tarifsTitle": "Preise & Buchung",

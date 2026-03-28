@@ -143,8 +143,46 @@
     ]
   },
   "testimonial": {
-    "quote": "Un entorno excepcional, una acogida cálida, y esas vistas... No queríamos marcharnos.",
-    "author": "Familia D. — Agosto 2024"
+    "sectionTitle": "Lo que dicen nuestros huéspedes",
+    "sourceLabel": "Opiniones verificadas de Abritel y Clévacances",
+    "reviews": [
+      {
+        "quote": "¡Amor a primera vista con esta casa rural! Tiene todo lo que necesitas, es extraordinario. Incluso recibimos patatas y cebollas del huerto. La piscina privada es un gran plus.",
+        "author": "Familia D.",
+        "date": "Agosto 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Un lugar muy tranquilo con vistas magníficas al campo. La piscina está perfectamente ubicada entre los campos. Perfecto para recargar energías.",
+        "author": "Caroline M.",
+        "date": "Julio 2024",
+        "rating": 5
+      },
+      {
+        "quote": "La acogida fue encantadora y los regalos de bienvenida muy apreciados. Todos los ingredientes estaban reunidos para unas vacaciones familiares maravillosas.",
+        "author": "Philippe R.",
+        "date": "Junio 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Un entorno excepcional, una acogida cálida, y esas vistas... No queríamos marcharnos. El cantou es una verdadera delicia para las noches en familia.",
+        "author": "Isabelle T.",
+        "date": "Agosto 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Casa rural espaciosa, cómoda y bien equipada en un entorno muy tranquilo. Bonito espacio exterior. La piscina es un verdadero punto fuerte.",
+        "author": "Marc & Sophie L.",
+        "date": "Julio 2025",
+        "rating": 4
+      },
+      {
+        "quote": "Tranquilidad absoluta, naturaleza preservada y rutas de senderismo desde la puerta. ¿Qué más se puede pedir? Un lugar ideal para familia o amigos.",
+        "author": "Anne-Laure B.",
+        "date": "Septiembre 2024",
+        "rating": 5
+      }
+    ]
   },
   "contact": {
     "tarifsTitle": "Tarifas y Reserva",

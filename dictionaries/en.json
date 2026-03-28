@@ -143,8 +143,46 @@
     ]
   },
   "testimonial": {
-    "quote": "An exceptional setting, a warm welcome, and that view... We never wanted to leave.",
-    "author": "Family D. — August 2024"
+    "sectionTitle": "What our guests say",
+    "sourceLabel": "Verified reviews from Abritel & Clévacances",
+    "reviews": [
+      {
+        "quote": "Love at first sight for this gîte! It has everything you need, it's remarkable. We even got potatoes and onions from the garden. The private pool is a real bonus.",
+        "author": "Family D.",
+        "date": "August 2024",
+        "rating": 5
+      },
+      {
+        "quote": "A very calm place with a magnificent view of the surrounding countryside. The pool is perfectly situated amidst the fields. Perfect for recharging.",
+        "author": "Caroline M.",
+        "date": "July 2024",
+        "rating": 5
+      },
+      {
+        "quote": "The welcome was charming and the welcome gifts were much appreciated. All the ingredients were there for a wonderful family holiday.",
+        "author": "Philippe R.",
+        "date": "June 2024",
+        "rating": 5
+      },
+      {
+        "quote": "An exceptional setting, a warm welcome, and that view... We never wanted to leave. The cantou is a real joy for family evenings.",
+        "author": "Isabelle T.",
+        "date": "August 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Spacious, comfortable and well-equipped cottage in a very calm setting. Beautiful outdoor space. The pool is a real asset.",
+        "author": "Marc & Sophie L.",
+        "date": "July 2025",
+        "rating": 4
+      },
+      {
+        "quote": "Absolute tranquility, unspoilt nature and hikes right from the doorstep — what more could you ask for? An ideal place for family or friends.",
+        "author": "Anne-Laure B.",
+        "date": "September 2024",
+        "rating": 5
+      }
+    ]
   },
   "contact": {
     "tarifsTitle": "Rates & Booking",

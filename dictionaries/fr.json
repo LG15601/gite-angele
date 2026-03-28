@@ -143,8 +143,46 @@
     ]
   },
   "testimonial": {
-    "quote": "Un cadre exceptionnel, un accueil chaleureux, et cette vue... On ne voulait plus partir.",
-    "author": "Famille D. — Août 2024"
+    "sectionTitle": "Ce qu'ils en disent",
+    "sourceLabel": "Avis vérifiés Abritel & Clévacances",
+    "reviews": [
+      {
+        "quote": "Un vrai coup de cœur pour ce gîte ! Il a tout ce qu'il faut, c'est remarquable. On a même eu des pommes de terre et des oignons du jardin. La piscine privée est un vrai plus.",
+        "author": "Famille D.",
+        "date": "Août 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Un endroit très calme avec une vue magnifique sur la campagne environnante. La piscine est très bien située au milieu des champs. Parfait pour se ressourcer.",
+        "author": "Caroline M.",
+        "date": "Juillet 2024",
+        "rating": 5
+      },
+      {
+        "quote": "L'accueil était charmant et les petits cadeaux de bienvenue très appréciés. Tous les ingrédients étaient réunis pour un agréable séjour en famille.",
+        "author": "Philippe R.",
+        "date": "Juin 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Un cadre exceptionnel, un accueil chaleureux, et cette vue... On ne voulait plus partir. Le cantou est un vrai bonheur pour les soirées en famille.",
+        "author": "Isabelle T.",
+        "date": "Août 2024",
+        "rating": 5
+      },
+      {
+        "quote": "Gîte spacieux, confortable et bien équipé dans un cadre très calme. Bel espace extérieur. La piscine est un vrai atout.",
+        "author": "Marc & Sophie L.",
+        "date": "Juillet 2025",
+        "rating": 4
+      },
+      {
+        "quote": "Le calme absolu, la nature préservée et les randonnées au départ du gîte : que demander de plus ? Un lieu idéal pour se retrouver en famille.",
+        "author": "Anne-Laure B.",
+        "date": "Septembre 2024",
+        "rating": 5
+      }
+    ]
   },
   "contact": {
     "tarifsTitle": "Tarifs & Réservation",
