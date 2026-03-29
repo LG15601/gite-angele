@@ -20,6 +20,10 @@ const photoSrcs = [
   "/images/nespresso-magimix.webp",
   "/images/chambre-lavande-lot3.webp",
   "/images/ext-vue.webp",
+  "/images/coin-pierre-fauteuil.webp",
+  "/images/bibliotheque-chesterfield.webp",
+  "/images/chambre-elegante.webp",
+  "/images/serviettes-lit.webp",
 ];
 
 export default function Gallery({ dict }: { dict: Dictionary["gallery"] }) {

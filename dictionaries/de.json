@@ -26,7 +26,7 @@
     "features": [
       "173 m² · 4 Schlafzimmer · 12 Schlafplätze",
       "Gesicherter privater Pool",
-      "180°-Panorama-Veranda und Billard",
+      "180°-Panorama-Veranda und Mini-Billard",
       "Historischer Cantou-Kamin und Holzofen",
       "Châtaigneraie Cantalienne · Slow Tourism"
     ],
@@ -42,39 +42,69 @@
     "items": [
       {
         "title": "Die Panorama-Veranda",
-        "description": "Ein wahrer Aussichtspunkt über die Natur des Cantal. Lichtdurchflutet bietet sie einen atemberaubenden 180°-Blick über die bewaldeten Täler der Châtaigneraie. Billard, Gesellschaftsspiele und Leseecke für Familienabende.",
+        "description": "Ein wahrer Aussichtspunkt über die Natur des Cantal. Lichtdurchflutet bietet sie einen atemberaubenden 180°-Blick über die bewaldeten Täler der Châtaigneraie. Mini-Billard, Tischfußball, Gesellschaftsspiele und Leseecke für Familienabende.",
         "alt": "Steinfassade mit Panorama-Veranda bei Sonnenuntergang — Gîte Angèle, Sénezergues",
-        "features": ["180°-Blick ins Tal", "Billard und Gesellschaftsspiele", "Heller Essbereich", "Direkter Terrassenzugang"]
+        "features": [
+          "180°-Blick ins Tal",
+          "Mini-Billard, Tischfußball & Gesellschaftsspiele",
+          "Heller Essbereich",
+          "Direkter Terrassenzugang"
+        ]
       },
       {
         "title": "Der Cantou",
         "description": "Das schlagende Herz des Hauses. Rund um den traditionellen Kamin der Auvergne — den Cantou — dehnen sich die Abende in warmer, behaglicher Atmosphäre. Der Holzofen heizt den Raum für Herbst- und Winteraufenthalte.",
         "alt": "Cantou aus Stein mit Holzofen im Wohnzimmer des Gîte Angèle, Cantal",
-        "features": ["Traditioneller Cantal-Kamin", "Holzofen", "Chesterfield-Sofas", "Charaktervolle Architektur"]
+        "features": [
+          "Traditioneller Cantal-Kamin",
+          "Holzofen",
+          "Chesterfield-Sofas",
+          "Charaktervolle Architektur"
+        ]
       },
       {
         "title": "Die Schlafräume",
         "description": "Vier eigenständige Welten für erholsame Nächte. Von der Romantik der Elternsuite bis zum Abenteuergeist des Kinderschlafsaals mit seinem Tipi. Premium-Bettwäsche, Laken und Handtücher inklusive.",
         "alt": "Kingsize-Schlafzimmer mit Premium-Bettwäsche im Gîte Angèle, Cantal",
-        "features": ["Kingsize-Elternsuite", "Lavendelzimmer", "Spielerischer Kinderschlafsaal", "Laken und Handtücher inklusive"]
+        "features": [
+          "Kingsize-Elternsuite",
+          "Lavendelzimmer",
+          "Spielerischer Kinderschlafsaal",
+          "Laken und Handtücher inklusive"
+        ]
       },
       {
         "title": "Abendessen unter Sternen",
         "description": "Ein großer Tisch für 12 Personen unter der Pergola. Teilen Sie unvergessliche Mahlzeiten im Freien, begleitet vom Gesang der Zikaden und der Sanftheit des Cantalabends. Null Lichtverschmutzung — der Sternenhimmel ist ein Schauspiel für sich.",
         "alt": "Pergola mit großem Esstisch und Landschaftsblick am Gîte Angèle",
-        "features": ["Tisch für 12 unter Pergola", "Atemberaubender Landschaftsblick", "Sternenhimmel ohne Lichtverschmutzung", "Grill zur Verfügung"]
+        "features": [
+          "Tisch für 12 unter Pergola",
+          "Atemberaubender Landschaftsblick",
+          "Sternenhimmel ohne Lichtverschmutzung",
+          "Grill zur Verfügung"
+        ]
       },
       {
         "title": "Außenbereich & Pool",
         "description": "Eine private Oase der Erfrischung, gesichert und eingezäunt, in grüner Umgebung mit Blick auf die Hügel. Baden unter dem intensiv blauen Himmel des Cantal oder unter der Milchstraße.",
         "alt": "Sonnenliegen mit Panoramablick über die Cantal-Landschaft — Gîte Angèle",
-        "features": ["Gesicherter Privatpool", "Boule-Platz", "Sonnenliegen und Sonnenbad", "Begrünter Garten 5.000 m²"]
+        "features": [
+          "Gesicherter Privatpool",
+          "Boule-Platz",
+          "Sonnenliegen und Sonnenbad",
+          "Begrünter Garten 5.000 m²"
+        ]
       },
       {
         "title": "Angèles Garten",
         "description": "Unser Gemüsegarten lädt Sie ein, frische Kräuter, Tomaten und saisonales Gemüse für Ihre Mahlzeiten zu pflücken. Ein Komposter steht bereit — hier pflegen wir die Erde, wie Angèle es tat.",
         "alt": "Angèles Garten — Gemüsebeet und Kräuter am Gîte Angèle, Sénezergues",
-        "features": ["Gemüsegarten zur freien Bedienung", "Frische Küchenkräuter", "Umweltfreundlicher Komposter", "Jahrhundertealter Olivenbaum"]
+        "features": [
+          "Gemüsegarten zur freien Bedienung",
+          "Frische Küchenkräuter",
+          "Umweltfreundlicher Komposter",
+          "Jahrhundertealter Olivenbaum"
+        ]
       }
     ]
   },
@@ -96,7 +126,11 @@
       "Sonnenliegen mit Blick auf die Cantal-Hügel",
       "Voll ausgestattete Küche — Nespresso, Magimix",
       "Lavendelzimmer — andere Ansicht",
-      "Landschaftspanorama der Châtaigneraie Cantalienne"
+      "Landschaftspanorama der Châtaigneraie Cantalienne",
+      "Gemütliche Steinecke mit antikem Sessel und Schaffell",
+      "Bibliothek mit Leder-Chesterfield-Sofa, gemütliche Atmosphäre",
+      "Elegantes Schlafzimmer mit Doppelbett und gedämpftem Licht",
+      "Weiße gefaltete Handtücher auf dem Bett, Hotelkomfort"
     ]
   },
   "region": {
@@ -122,24 +156,68 @@
     ],
     "distancesTitle": "Vom Gîte aus",
     "distances": [
-      { "place": "Calvinet", "detail": "Nachbardorf", "time": "8 Min." },
-      { "place": "Maurs", "detail": "Dienstagmarkt", "time": "10 Min." },
-      { "place": "Marcolès", "detail": "Mittelalterstadt", "time": "15 Min." },
-      { "place": "Conques", "detail": "UNESCO", "time": "30 Min." },
-      { "place": "Aurillac", "detail": "Bahnhof & Flughafen", "time": "40 Min." },
-      { "place": "Super Lioran", "detail": "Skigebiet", "time": "1 Std." },
-      { "place": "Rodez", "detail": "Museum Soulages", "time": "1h15" },
-      { "place": "Toulouse", "detail": "internationaler Flughafen", "time": "3h30" }
+      {
+        "place": "Calvinet",
+        "detail": "Nachbardorf",
+        "time": "8 Min."
+      },
+      {
+        "place": "Maurs",
+        "detail": "Dienstagmarkt",
+        "time": "10 Min."
+      },
+      {
+        "place": "Marcolès",
+        "detail": "Mittelalterstadt",
+        "time": "15 Min."
+      },
+      {
+        "place": "Conques",
+        "detail": "UNESCO",
+        "time": "30 Min."
+      },
+      {
+        "place": "Aurillac",
+        "detail": "Bahnhof & Flughafen",
+        "time": "40 Min."
+      },
+      {
+        "place": "Super Lioran",
+        "detail": "Skigebiet",
+        "time": "1 Std."
+      },
+      {
+        "place": "Rodez",
+        "detail": "Museum Soulages",
+        "time": "1h15"
+      },
+      {
+        "place": "Toulouse",
+        "detail": "internationaler Flughafen",
+        "time": "3h30"
+      }
     ],
     "quote": "Échappées Belles (France 5) hat der Öffentlichkeit die verborgenen Schätze unseres Winkels im Cantal offenbart."
   },
   "seasons": {
     "title": "Im Wandel der 4 Jahreszeiten",
     "items": [
-      { "name": "Frühling", "description": "Das Erwachen der Natur. Die Täler bedecken sich mit Wildblumen — ideal für Wanderer auf der Suche nach Farben." },
-      { "name": "Sommer", "description": "Die Leichtigkeit des Seins. Baden, Nachtmärkte, Festivals und unvergessliche Sternenhimmel." },
-      { "name": "Herbst", "description": "Altweibersommer. Die Kastanienwälder kleiden sich in Gold. Zeit der Pilze und Waldspaziergänge." },
-      { "name": "Winter", "description": "Gemütliche Stunden. Abende am Cantou-Kamin, Skifahren am Super Lioran (45 Min.) und Weihnachtsmärkte." }
+      {
+        "name": "Frühling",
+        "description": "Das Erwachen der Natur. Die Täler bedecken sich mit Wildblumen — ideal für Wanderer auf der Suche nach Farben."
+      },
+      {
+        "name": "Sommer",
+        "description": "Die Leichtigkeit des Seins. Baden, Nachtmärkte, Festivals und unvergessliche Sternenhimmel."
+      },
+      {
+        "name": "Herbst",
+        "description": "Altweibersommer. Die Kastanienwälder kleiden sich in Gold. Zeit der Pilze und Waldspaziergänge."
+      },
+      {
+        "name": "Winter",
+        "description": "Gemütliche Stunden. Abende am Cantou-Kamin, Skifahren am Super Lioran (45 Min.) und Weihnachtsmärkte."
+      }
     ]
   },
   "testimonial": {
@@ -187,9 +265,21 @@
   "contact": {
     "tarifsTitle": "Preise & Buchung",
     "tarifs": [
-      { "season": "Hochsaison", "period": "01.07. – 31.08.", "price": "1.547 €" },
-      { "season": "Nachsaison", "period": "01.09. – 31.12.", "price": "1.358 €" },
-      { "season": "Nebensaison", "period": "01.01. – 30.06.", "price": "1.099 €" }
+      {
+        "season": "Hochsaison",
+        "period": "01.07. – 31.08.",
+        "price": "1.547 €"
+      },
+      {
+        "season": "Nachsaison",
+        "period": "01.09. – 31.12.",
+        "price": "1.358 €"
+      },
+      {
+        "season": "Nebensaison",
+        "period": "01.01. – 30.06.",
+        "price": "1.099 €"
+      }
     ],
     "perWeek": "/Woche",
     "shortStay": "Kurzaufenthalt (mind. 2 Nächte)",
@@ -233,8 +323,7 @@
         "🕓 Anreise ab 16:00 Uhr",
         "🕙 Abreise vor 10:00 Uhr",
         "👥 Max. 12 Gäste",
-        "🏠 173 m² · 4 Schlafzimmer",
-        "🐕 Haustiere willkommen"
+        "🏠 173 m² · 4 Schlafzimmer"
       ]
     },
     "cta": {

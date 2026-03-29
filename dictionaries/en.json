@@ -26,7 +26,7 @@
     "features": [
       "173 m² · 4 bedrooms · Sleeps 12",
       "Secured private pool",
-      "180° panoramic veranda & billiards",
+      "180° panoramic veranda & mini pool table",
       "Ancestral Cantou fireplace & wood stove",
       "Châtaigneraie Cantalienne · Slow tourism"
     ],
@@ -44,37 +44,67 @@
         "title": "The Panoramic Veranda",
         "description": "A true belvedere overlooking the Cantal countryside. Bathed in light, it offers stunning 180° views over the wooded valleys of the Châtaigneraie. Billiards, board games and a reading corner for family evenings.",
         "alt": "Stone facade with panoramic veranda at sunset — Gîte Angèle, Sénezergues",
-        "features": ["180° valley view", "Billiards & board games", "Bright dining area", "Direct terrace access"]
+        "features": [
+          "180° valley view",
+          "Mini pool table, foosball & board games",
+          "Bright dining area",
+          "Direct terrace access"
+        ]
       },
       {
         "title": "The Cantou",
         "description": "The beating heart of the house. Around the traditional Auvergne fireplace — the cantou — evenings linger in a warm and cosy atmosphere. The wood stove heats the room for autumn and winter stays.",
         "alt": "Stone cantou with wood stove in the lounge of Gîte Angèle, Cantal",
-        "features": ["Traditional Cantal fireplace", "Wood stove", "Chesterfield sofas", "Character architecture"]
+        "features": [
+          "Traditional Cantal fireplace",
+          "Wood stove",
+          "Chesterfield sofas",
+          "Character architecture"
+        ]
       },
       {
         "title": "The Bedrooms",
         "description": "Four distinct worlds for restful nights. From the romance of the master suite to the adventurous spirit of the dormitory with its teepee. Premium bedding, sheets and towels provided.",
         "alt": "King-size bedroom with premium bedding at Gîte Angèle, Cantal",
-        "features": ["King-size master suite", "Lavender room", "Fun children's dormitory", "Sheets & towels included"]
+        "features": [
+          "King-size master suite",
+          "Lavender room",
+          "Fun children's dormitory",
+          "Sheets & towels included"
+        ]
       },
       {
         "title": "Dining under the Stars",
         "description": "A large 12-seat table under the pergola. Share memorable meals outdoors, lulled by the song of cicadas and the gentle Cantal evening. Zero light pollution — the starry sky is a show in itself.",
         "alt": "Pergola with large outdoor dining table and countryside views at Gîte Angèle",
-        "features": ["12-seat table under pergola", "Stunning countryside views", "Starlit sky, no light pollution", "Barbecue available"]
+        "features": [
+          "12-seat table under pergola",
+          "Stunning countryside views",
+          "Starlit sky, no light pollution",
+          "Barbecue available"
+        ]
       },
       {
         "title": "Outdoor & Pool",
         "description": "A private oasis of freshness, secured and fenced, in a green setting with views over the hills. Swim under Cantal's intense blue sky or beneath the Milky Way.",
         "alt": "Sun loungers with panoramic views over the Cantal countryside — Gîte Angèle",
-        "features": ["Secured private pool", "Pétanque court", "Sun loungers & sunbathing", "5,000 m² landscaped garden"]
+        "features": [
+          "Secured private pool",
+          "Pétanque court",
+          "Sun loungers & sunbathing",
+          "5,000 m² landscaped garden"
+        ]
       },
       {
         "title": "Angèle's Garden",
         "description": "Our vegetable garden invites you to pick fresh herbs, tomatoes and seasonal vegetables for your meals. A compost bin is provided — here, we care for the earth just as Angèle did.",
         "alt": "Angèle's Garden — vegetable patch and herbs at Gîte Angèle, Sénezergues",
-        "features": ["Self-service vegetable garden", "Fresh aromatic herbs", "Eco-friendly compost bin", "Century-old olive tree"]
+        "features": [
+          "Self-service vegetable garden",
+          "Fresh aromatic herbs",
+          "Eco-friendly compost bin",
+          "Century-old olive tree"
+        ]
       }
     ]
   },
@@ -96,7 +126,11 @@
       "Sun loungers facing the Cantal hills",
       "Fully equipped kitchen — Nespresso, Magimix",
       "Lavender bedroom — another view",
-      "Landscape view over the Châtaigneraie Cantalienne"
+      "Landscape view over the Châtaigneraie Cantalienne",
+      "Stone relaxation corner with antique armchair and sheepskin",
+      "Library with leather Chesterfield sofa, cosy atmosphere",
+      "Elegant bedroom with double bed and soft lighting",
+      "White folded towels on the bed, hotel touch"
     ]
   },
   "region": {
@@ -122,24 +156,68 @@
     ],
     "distancesTitle": "From the gîte",
     "distances": [
-      { "place": "Calvinet", "detail": "neighbouring village", "time": "8 min" },
-      { "place": "Maurs", "detail": "Tuesday market", "time": "10 min" },
-      { "place": "Marcolès", "detail": "medieval town", "time": "15 min" },
-      { "place": "Conques", "detail": "UNESCO", "time": "30 min" },
-      { "place": "Aurillac", "detail": "station & airport", "time": "40 min" },
-      { "place": "Super Lioran", "detail": "alpine skiing", "time": "1h" },
-      { "place": "Rodez", "detail": "Soulages museum", "time": "1h15" },
-      { "place": "Toulouse", "detail": "international airport", "time": "3h30" }
+      {
+        "place": "Calvinet",
+        "detail": "neighbouring village",
+        "time": "8 min"
+      },
+      {
+        "place": "Maurs",
+        "detail": "Tuesday market",
+        "time": "10 min"
+      },
+      {
+        "place": "Marcolès",
+        "detail": "medieval town",
+        "time": "15 min"
+      },
+      {
+        "place": "Conques",
+        "detail": "UNESCO",
+        "time": "30 min"
+      },
+      {
+        "place": "Aurillac",
+        "detail": "station & airport",
+        "time": "40 min"
+      },
+      {
+        "place": "Super Lioran",
+        "detail": "alpine skiing",
+        "time": "1h"
+      },
+      {
+        "place": "Rodez",
+        "detail": "Soulages museum",
+        "time": "1h15"
+      },
+      {
+        "place": "Toulouse",
+        "detail": "international airport",
+        "time": "3h30"
+      }
     ],
     "quote": "Échappées Belles (France 5) revealed to the public the hidden treasures of our corner of Cantal."
   },
   "seasons": {
     "title": "Through the 4 Seasons",
     "items": [
-      { "name": "Spring", "description": "Nature's awakening. The valleys are covered with wildflowers, ideal for hikers seeking colour." },
-      { "name": "Summer", "description": "The sweet life. Swimming, night markets, festivals and unforgettable starry skies." },
-      { "name": "Autumn", "description": "Indian summer. The chestnut groves turn gold. Season of mushrooms and forest walks." },
-      { "name": "Winter", "description": "Cocooning time. Evenings by the cantou, skiing at Super Lioran (45 min), and Christmas markets." }
+      {
+        "name": "Spring",
+        "description": "Nature's awakening. The valleys are covered with wildflowers, ideal for hikers seeking colour."
+      },
+      {
+        "name": "Summer",
+        "description": "The sweet life. Swimming, night markets, festivals and unforgettable starry skies."
+      },
+      {
+        "name": "Autumn",
+        "description": "Indian summer. The chestnut groves turn gold. Season of mushrooms and forest walks."
+      },
+      {
+        "name": "Winter",
+        "description": "Cocooning time. Evenings by the cantou, skiing at Super Lioran (45 min), and Christmas markets."
+      }
     ]
   },
   "testimonial": {
@@ -187,9 +265,21 @@
   "contact": {
     "tarifsTitle": "Rates & Booking",
     "tarifs": [
-      { "season": "High season", "period": "01/07 – 31/08", "price": "€1,547" },
-      { "season": "Late season", "period": "01/09 – 31/12", "price": "€1,358" },
-      { "season": "Low season", "period": "01/01 – 30/06", "price": "€1,099" }
+      {
+        "season": "High season",
+        "period": "01/07 – 31/08",
+        "price": "€1,547"
+      },
+      {
+        "season": "Late season",
+        "period": "01/09 – 31/12",
+        "price": "€1,358"
+      },
+      {
+        "season": "Low season",
+        "period": "01/01 – 30/06",
+        "price": "€1,099"
+      }
     ],
     "perWeek": "/week",
     "shortStay": "Short stay (2 nights minimum)",
@@ -233,8 +323,7 @@
         "🕓 Check-in from 4 pm",
         "🕙 Check-out before 10 am",
         "👥 12 guests max",
-        "🏠 173 m² · 4 bedrooms",
-        "🐕 Pets welcome"
+        "🏠 173 m² · 4 bedrooms"
       ]
     },
     "cta": {

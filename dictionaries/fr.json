@@ -26,7 +26,7 @@
     "features": [
       "173 m² · 4 chambres · 12 couchages",
       "Piscine privée sécurisée",
-      "Véranda panoramique 180° & billard",
+      "Véranda panoramique 180° & mini billard",
       "Cantou ancestral & poêle à bois",
       "Châtaigneraie Cantalienne · Slow tourisme"
     ],
@@ -42,39 +42,69 @@
     "items": [
       {
         "title": "La Véranda Panoramique",
-        "description": "Véritable belvédère sur la nature cantalienne. Baignée de lumière, elle offre une vue imprenable à 180° sur les vallons boisés de la Châtaigneraie. Billard, jeux de société et espace lecture pour les soirées en famille.",
+        "description": "Véritable belvédère sur la nature cantalienne. Baignée de lumière, elle offre une vue imprenable à 180° sur les vallons boisés de la Châtaigneraie. Mini billard, baby-foot, jeux de société et espace lecture pour les soirées en famille.",
         "alt": "Façade en pierre avec véranda panoramique au coucher de soleil — Gîte Angèle, Sénezergues",
-        "features": ["Vue 180° sur la vallée", "Billard & jeux de société", "Espace repas lumineux", "Accès direct terrasse"]
+        "features": [
+          "Vue 180° sur la vallée",
+          "Mini billard, baby-foot & jeux de société",
+          "Espace repas lumineux",
+          "Accès direct terrasse"
+        ]
       },
       {
         "title": "Le Cantou",
         "description": "Le cœur battant de la maison. Autour de la cheminée traditionnelle auvergnate — le cantou — les soirées se prolongent dans une ambiance chaleureuse et feutrée. Le poêle à bois chauffe la pièce pour les séjours d'automne et d'hiver.",
         "alt": "Cantou en pierre avec poêle à bois dans le salon du Gîte Angèle, Cantal",
-        "features": ["Cheminée traditionnelle cantalienne", "Poêle à bois", "Canapés Chesterfield", "Architecture de caractère"]
+        "features": [
+          "Cheminée traditionnelle cantalienne",
+          "Poêle à bois",
+          "Canapés Chesterfield",
+          "Architecture de caractère"
+        ]
       },
       {
         "title": "Les Nuits",
         "description": "Quatre univers distincts pour des nuits réparatrices. Du romantisme de la chambre parentale à l'esprit aventure du dortoir avec son tipi. Literie premium, draps et serviettes fournis.",
         "alt": "Chambre king size avec literie premium au Gîte Angèle, Cantal",
-        "features": ["Suite parentale king size", "Chambre lavande", "Dortoir enfants ludique", "Draps & serviettes inclus"]
+        "features": [
+          "Suite parentale king size",
+          "Chambre lavande",
+          "Dortoir enfants ludique",
+          "Draps & serviettes inclus"
+        ]
       },
       {
         "title": "Repas sous les Étoiles",
         "description": "Une grande table de 12 places sous la pergola. Partagez des repas mémorables en plein air, bercés par le chant des cigales et la douceur du soir cantalien. Zéro pollution lumineuse — le ciel étoilé est un spectacle en soi.",
         "alt": "Pergola avec grande table extérieure et vue campagne au Gîte Angèle",
-        "features": ["Table 12 places sous pergola", "Vue campagne imprenable", "Ciel étoilé sans pollution", "Barbecue à disposition"]
+        "features": [
+          "Table 12 places sous pergola",
+          "Vue campagne imprenable",
+          "Ciel étoilé sans pollution",
+          "Barbecue à disposition"
+        ]
       },
       {
         "title": "L'Extérieur & Piscine",
         "description": "Une oasis de fraîcheur privée, sécurisée et clôturée, dans un écrin de verdure avec vue sur les collines. Baignades sous le ciel bleu intense du Cantal ou sous la voie lactée.",
         "alt": "Transats avec vue panoramique sur la campagne cantalienne — Gîte Angèle",
-        "features": ["Piscine privée sécurisée", "Terrain de pétanque", "Transats & bains de soleil", "Jardin arboré 5 000 m²"]
+        "features": [
+          "Piscine privée sécurisée",
+          "Terrain de pétanque",
+          "Transats & bains de soleil",
+          "Jardin arboré 5 000 m²"
+        ]
       },
       {
         "title": "Le Jardin d'Angèle",
         "description": "Notre potager vous invite à cueillir herbes aromatiques, tomates et légumes de saison pour agrémenter vos repas. Un composteur est à disposition pour les épluchures — ici, on prend soin de la terre comme Angèle le faisait.",
         "alt": "Jardin d'Angèle — potager et herbes aromatiques au Gîte Angèle, Sénezergues",
-        "features": ["Potager en libre-service", "Herbes aromatiques fraîches", "Composteur éco-responsable", "Olivier centenaire"]
+        "features": [
+          "Potager en libre-service",
+          "Herbes aromatiques fraîches",
+          "Composteur éco-responsable",
+          "Olivier centenaire"
+        ]
       }
     ]
   },
@@ -96,7 +126,11 @@
       "Transats face aux collines du Cantal",
       "Cuisine équipée — Nespresso, Magimix",
       "Chambre lavande — autre vue",
-      "Vue paysage sur la Châtaigneraie Cantalienne"
+      "Vue paysage sur la Châtaigneraie Cantalienne",
+      "Coin détente en pierre avec fauteuil ancien et peau de mouton",
+      "Bibliothèque avec canapé Chesterfield cuir, ambiance cosy",
+      "Chambre élégante avec lit double et éclairage tamisé",
+      "Serviettes blanches pliées sur le lit, touche hôtelière"
     ]
   },
   "region": {
@@ -122,24 +156,68 @@
     ],
     "distancesTitle": "Depuis le gîte",
     "distances": [
-      { "place": "Calvinet", "detail": "village voisin", "time": "8 min" },
-      { "place": "Maurs", "detail": "marché le mardi", "time": "10 min" },
-      { "place": "Marcolès", "detail": "cité médiévale", "time": "15 min" },
-      { "place": "Conques", "detail": "UNESCO", "time": "30 min" },
-      { "place": "Aurillac", "detail": "gare & aéroport", "time": "40 min" },
-      { "place": "Super Lioran", "detail": "ski alpin", "time": "1h" },
-      { "place": "Rodez", "detail": "musée Soulages", "time": "1h15" },
-      { "place": "Toulouse", "detail": "aéroport international", "time": "3h30" }
+      {
+        "place": "Calvinet",
+        "detail": "village voisin",
+        "time": "8 min"
+      },
+      {
+        "place": "Maurs",
+        "detail": "marché le mardi",
+        "time": "10 min"
+      },
+      {
+        "place": "Marcolès",
+        "detail": "cité médiévale",
+        "time": "15 min"
+      },
+      {
+        "place": "Conques",
+        "detail": "UNESCO",
+        "time": "30 min"
+      },
+      {
+        "place": "Aurillac",
+        "detail": "gare & aéroport",
+        "time": "40 min"
+      },
+      {
+        "place": "Super Lioran",
+        "detail": "ski alpin",
+        "time": "1h"
+      },
+      {
+        "place": "Rodez",
+        "detail": "musée Soulages",
+        "time": "1h15"
+      },
+      {
+        "place": "Toulouse",
+        "detail": "aéroport international",
+        "time": "3h30"
+      }
     ],
     "quote": "Échappées Belles (France 5) a révélé au grand public les trésors cachés de notre coin du Cantal."
   },
   "seasons": {
     "title": "Au fil des 4 Saisons",
     "items": [
-      { "name": "Printemps", "description": "L'éveil de la nature. Les vallons se couvrent de fleurs sauvages, idéal pour les randonneurs en quête de couleurs." },
-      { "name": "Été", "description": "La douceur de vivre. Baignades, marchés nocturnes de pays, festivals et ciels étoilés inoubliables." },
-      { "name": "Automne", "description": "L'été indien. La châtaigneraie se pare d'or. Saison des champignons et des promenades en forêt." },
-      { "name": "Hiver", "description": "L'ambiance cocooning. Soirées au cantou, ski au Super Lioran (45min), et marchés de Noël." }
+      {
+        "name": "Printemps",
+        "description": "L'éveil de la nature. Les vallons se couvrent de fleurs sauvages, idéal pour les randonneurs en quête de couleurs."
+      },
+      {
+        "name": "Été",
+        "description": "La douceur de vivre. Baignades, marchés nocturnes de pays, festivals et ciels étoilés inoubliables."
+      },
+      {
+        "name": "Automne",
+        "description": "L'été indien. La châtaigneraie se pare d'or. Saison des champignons et des promenades en forêt."
+      },
+      {
+        "name": "Hiver",
+        "description": "L'ambiance cocooning. Soirées au cantou, ski au Super Lioran (45min), et marchés de Noël."
+      }
     ]
   },
   "testimonial": {
@@ -187,9 +265,21 @@
   "contact": {
     "tarifsTitle": "Tarifs & Réservation",
     "tarifs": [
-      { "season": "Haute saison", "period": "01/07 – 31/08", "price": "1 547€" },
-      { "season": "Arrière-saison", "period": "01/09 – 31/12", "price": "1 358€" },
-      { "season": "Basse saison", "period": "01/01 – 30/06", "price": "1 099€" }
+      {
+        "season": "Haute saison",
+        "period": "01/07 – 31/08",
+        "price": "1 547€"
+      },
+      {
+        "season": "Arrière-saison",
+        "period": "01/09 – 31/12",
+        "price": "1 358€"
+      },
+      {
+        "season": "Basse saison",
+        "period": "01/01 – 30/06",
+        "price": "1 099€"
+      }
     ],
     "perWeek": "/semaine",
     "shortStay": "Court séjour (2 nuits minimum)",
@@ -233,8 +323,7 @@
         "🕓 Arrivée à partir de 16h",
         "🕙 Départ avant 10h",
         "👥 12 voyageurs max",
-        "🏠 173 m² · 4 chambres",
-        "🐕 Animaux bienvenus"
+        "🏠 173 m² · 4 chambres"
       ]
     },
     "cta": {

@@ -26,7 +26,7 @@
     "features": [
       "173 m² · 4 camere · 12 posti letto",
       "Piscina privata con recinzione di sicurezza",
-      "Veranda panoramica a 180° e biliardo",
+      "Veranda panoramica a 180° e mini biliardo",
       "Cantou ancestrale e stufa a legna",
       "Châtaigneraie Cantalienne · Turismo lento"
     ],
@@ -42,39 +42,69 @@
     "items": [
       {
         "title": "La Veranda Panoramica",
-        "description": "Un vero belvedere sulla natura del Cantal. Inondata di luce, offre una vista impagabile a 180° sulle valli boscose della Châtaigneraie. Biliardo, giochi da tavolo e angolo lettura per le serate in famiglia.",
+        "description": "Un vero belvedere sulla natura del Cantal. Inondata di luce, offre una vista impagabile a 180° sulle valli boscose della Châtaigneraie. Mini biliardo, calcio balilla, giochi da tavolo e angolo lettura per le serate in famiglia.",
         "alt": "Facciata in pietra con veranda panoramica al tramonto — Gîte Angèle, Sénezergues",
-        "features": ["Vista a 180° sulla valle", "Biliardo e giochi da tavolo", "Zona pranzo luminosa", "Accesso diretto alla terrazza"]
+        "features": [
+          "Vista a 180° sulla valle",
+          "Mini biliardo, calcio balilla & giochi da tavolo",
+          "Zona pranzo luminosa",
+          "Accesso diretto alla terrazza"
+        ]
       },
       {
         "title": "Il Cantou",
         "description": "Il cuore pulsante della casa. Attorno al camino tradizionale alverniate — il cantou — le serate si prolungano in un'atmosfera calda e raccolta. La stufa a legna riscalda l'ambiente per i soggiorni autunnali e invernali.",
         "alt": "Cantou in pietra con stufa a legna nel soggiorno del Gîte Angèle, Cantal",
-        "features": ["Camino tradizionale del Cantal", "Stufa a legna", "Divani Chesterfield", "Architettura di carattere"]
+        "features": [
+          "Camino tradizionale del Cantal",
+          "Stufa a legna",
+          "Divani Chesterfield",
+          "Architettura di carattere"
+        ]
       },
       {
         "title": "Le Notti",
         "description": "Quattro universi distinti per notti rigeneranti. Dal romanticismo della camera padronale allo spirito avventuroso del dormitorio con il suo tepee. Biancheria premium, lenzuola e asciugamani forniti.",
         "alt": "Camera king size con biancheria premium al Gîte Angèle, Cantal",
-        "features": ["Suite padronale king size", "Camera lavanda", "Dormitorio bambini ludico", "Lenzuola e asciugamani inclusi"]
+        "features": [
+          "Suite padronale king size",
+          "Camera lavanda",
+          "Dormitorio bambini ludico",
+          "Lenzuola e asciugamani inclusi"
+        ]
       },
       {
         "title": "Cena sotto le Stelle",
         "description": "Un grande tavolo da 12 posti sotto il pergolato. Condividete pasti memorabili all'aperto, cullati dal canto delle cicale e dalla dolcezza della sera cantalese. Zero inquinamento luminoso — il cielo stellato è uno spettacolo a sé.",
         "alt": "Pergolato con grande tavolo esterno e vista campagna al Gîte Angèle",
-        "features": ["Tavolo 12 posti sotto pergolato", "Vista campagna impagabile", "Cielo stellato senza inquinamento", "Barbecue a disposizione"]
+        "features": [
+          "Tavolo 12 posti sotto pergolato",
+          "Vista campagna impagabile",
+          "Cielo stellato senza inquinamento",
+          "Barbecue a disposizione"
+        ]
       },
       {
         "title": "Esterno e Piscina",
         "description": "Un'oasi di freschezza privata, protetta e recintata, in uno scrigno di verde con vista sulle colline. Nuotate sotto il cielo azzurro intenso del Cantal o sotto la Via Lattea.",
         "alt": "Lettini con vista panoramica sulla campagna cantalese — Gîte Angèle",
-        "features": ["Piscina privata protetta", "Campo da bocce", "Lettini e solarium", "Giardino alberato 5.000 m²"]
+        "features": [
+          "Piscina privata protetta",
+          "Campo da bocce",
+          "Lettini e solarium",
+          "Giardino alberato 5.000 m²"
+        ]
       },
       {
         "title": "Il Giardino di Angèle",
         "description": "Il nostro orto vi invita a cogliere erbe aromatiche, pomodori e ortaggi di stagione per arricchire i vostri pasti. Una compostiera è a disposizione — qui ci prendiamo cura della terra come faceva Angèle.",
         "alt": "Giardino di Angèle — orto ed erbe aromatiche al Gîte Angèle, Sénezergues",
-        "features": ["Orto a libero servizio", "Erbe aromatiche fresche", "Compostiera eco-responsabile", "Ulivo centenario"]
+        "features": [
+          "Orto a libero servizio",
+          "Erbe aromatiche fresche",
+          "Compostiera eco-responsabile",
+          "Ulivo centenario"
+        ]
       }
     ]
   },
@@ -96,7 +126,11 @@
       "Lettini di fronte alle colline del Cantal",
       "Cucina attrezzata — Nespresso, Magimix",
       "Camera lavanda — altra vista",
-      "Panorama sulla Châtaigneraie Cantalienne"
+      "Panorama sulla Châtaigneraie Cantalienne",
+      "Angolo relax in pietra con poltrona antica e pelle di pecora",
+      "Biblioteca con divano Chesterfield in pelle, atmosfera accogliente",
+      "Camera elegante con letto matrimoniale e illuminazione soffusa",
+      "Asciugamani bianchi piegati sul letto, tocco alberghiero"
     ]
   },
   "region": {
@@ -122,24 +156,68 @@
     ],
     "distancesTitle": "Dal gîte",
     "distances": [
-      { "place": "Calvinet", "detail": "villaggio vicino", "time": "8 min" },
-      { "place": "Maurs", "detail": "mercato il martedì", "time": "10 min" },
-      { "place": "Marcolès", "detail": "borgo medievale", "time": "15 min" },
-      { "place": "Conques", "detail": "UNESCO", "time": "30 min" },
-      { "place": "Aurillac", "detail": "stazione e aeroporto", "time": "40 min" },
-      { "place": "Super Lioran", "detail": "sci alpino", "time": "1h" },
-      { "place": "Rodez", "detail": "museo Soulages", "time": "1h15" },
-      { "place": "Toulouse", "detail": "aeroporto internazionale", "time": "3h30" }
+      {
+        "place": "Calvinet",
+        "detail": "villaggio vicino",
+        "time": "8 min"
+      },
+      {
+        "place": "Maurs",
+        "detail": "mercato il martedì",
+        "time": "10 min"
+      },
+      {
+        "place": "Marcolès",
+        "detail": "borgo medievale",
+        "time": "15 min"
+      },
+      {
+        "place": "Conques",
+        "detail": "UNESCO",
+        "time": "30 min"
+      },
+      {
+        "place": "Aurillac",
+        "detail": "stazione e aeroporto",
+        "time": "40 min"
+      },
+      {
+        "place": "Super Lioran",
+        "detail": "sci alpino",
+        "time": "1h"
+      },
+      {
+        "place": "Rodez",
+        "detail": "museo Soulages",
+        "time": "1h15"
+      },
+      {
+        "place": "Toulouse",
+        "detail": "aeroporto internazionale",
+        "time": "3h30"
+      }
     ],
     "quote": "Échappées Belles (France 5) ha svelato al grande pubblico i tesori nascosti del nostro angolo di Cantal."
   },
   "seasons": {
     "title": "Attraverso le 4 Stagioni",
     "items": [
-      { "name": "Primavera", "description": "Il risveglio della natura. Le valli si ricoprono di fiori selvatici, ideale per gli escursionisti in cerca di colori." },
-      { "name": "Estate", "description": "La dolce vita. Bagni, mercatini serali, festival e cieli stellati indimenticabili." },
-      { "name": "Autunno", "description": "L'estate indiana. Il castagneto si veste d'oro. Stagione dei funghi e delle passeggiate nel bosco." },
-      { "name": "Inverno", "description": "Atmosfera cocooning. Serate accanto al cantou, sci al Super Lioran (45 min) e mercatini di Natale." }
+      {
+        "name": "Primavera",
+        "description": "Il risveglio della natura. Le valli si ricoprono di fiori selvatici, ideale per gli escursionisti in cerca di colori."
+      },
+      {
+        "name": "Estate",
+        "description": "La dolce vita. Bagni, mercatini serali, festival e cieli stellati indimenticabili."
+      },
+      {
+        "name": "Autunno",
+        "description": "L'estate indiana. Il castagneto si veste d'oro. Stagione dei funghi e delle passeggiate nel bosco."
+      },
+      {
+        "name": "Inverno",
+        "description": "Atmosfera cocooning. Serate accanto al cantou, sci al Super Lioran (45 min) e mercatini di Natale."
+      }
     ]
   },
   "testimonial": {
@@ -187,9 +265,21 @@
   "contact": {
     "tarifsTitle": "Tariffe e Prenotazione",
     "tarifs": [
-      { "season": "Alta stagione", "period": "01/07 – 31/08", "price": "1.547 €" },
-      { "season": "Bassa stagione (autunno)", "period": "01/09 – 31/12", "price": "1.358 €" },
-      { "season": "Bassa stagione", "period": "01/01 – 30/06", "price": "1.099 €" }
+      {
+        "season": "Alta stagione",
+        "period": "01/07 – 31/08",
+        "price": "1.547 €"
+      },
+      {
+        "season": "Bassa stagione (autunno)",
+        "period": "01/09 – 31/12",
+        "price": "1.358 €"
+      },
+      {
+        "season": "Bassa stagione",
+        "period": "01/01 – 30/06",
+        "price": "1.099 €"
+      }
     ],
     "perWeek": "/settimana",
     "shortStay": "Soggiorno breve (minimo 2 notti)",
@@ -233,8 +323,7 @@
         "🕓 Check-in dalle 16:00",
         "🕙 Check-out entro le 10:00",
         "👥 12 ospiti max",
-        "🏠 173 m² · 4 camere",
-        "🐕 Animali benvenuti"
+        "🏠 173 m² · 4 camere"
       ]
     },
     "cta": {
